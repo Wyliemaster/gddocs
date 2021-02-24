@@ -9,12 +9,12 @@
 
 | Key | Name/Value     | Type       |Description                           |
 | --- | -------------- | ---------- | -------------------------------------|
-| 1   | Offical Levels | **String** | Please refer to [Official Level Structure](/resources/server/restore?id=official-level-structure) |
-| 2   | Stars          | **Integer** | This is how many stars that should be given to your account  |
-| 3   | Demons         | **Integer** | This is how many demons that should be added to your account |
-| 4   | Jumps          | **Integer** | This is how many jumps you have made on your account of its lifetime|
+| 1   | officalLevels  | **String** | Please refer to [Official Level Structure](/resources/server/restore?id=official-level-structure) |
+| 2   | stars          | **Integer** | This is how many stars that should be given to your account  |
+| 3   | demons         | **Integer** | This is how many demons that should be added to your account |
+| 4   | jumps          | **Integer** | This is how many jumps you have made on your account of its lifetime|
 | 5   | attempts       | **Integer** | This is how many attempts you have spent on levels on your accounts lifetime |
-| 6   | Online levels  | **String** | These are the ID's of online levels you have beaten. seperated by `,` |
+| 6   | onlineLevels  | **String** | These are the ID's of online levels you have beaten. seperated by `,` |
 
 #### Official Level Structure
 

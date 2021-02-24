@@ -18,15 +18,15 @@ The key structure that Leaderboards follow are exactly the same as the structure
 
 | Key | Name/Value                | Type                                         | Description                                                              
 |-----|---------------------------|----------------------------------------------|--------------------------------------------------------------------------
-| 1   | Username				  | **String**									 | The username of the user
-| 2   | Player ID				  | **Integer**									 | The player ID of the user. **This is different than the account ID**
-| 3   | Percentage*				  | **Integer**									 | Percentage the user has on the level
-| 6   | Ranking					  | **Integer**									 | What rank they are (e.g. Viprin would have 1 in the creating leaderboard)
+| 1   | userName				  | **String**									 | The username of the user
+| 2   | playerID				  | **Integer**									 | The player ID of the user. **This is different than the account ID**
+| 3   | percentage*				  | **Integer**									 | Percentage the user has on the level
+| 6   | ranking					  | **Integer**									 | What rank they are (e.g. Viprin would have 1 in the creating leaderboard)
 | 9   | Icon					  | **Integer**									 | Which icon the user is using, starting with 1 as the first icon
-| 10  | Player Color 1			  | **Integer**									 | The user's primary player color, presumably ordered cronologically from left to right per update
-| 11  | Player Color 2			  | **Integer**									 | The user's secondary player color, presumably ordered cronologically from left to right per update
-| 13  | Coins        	          | **Integer**									 | Secret coins/number of usercoins you get on a level*
-| 14  | Icon Type				  | **Integer**									 | The user's icon type indexing an array of `icon, ship, ball, ufo, wave, robot, spider`
-| 15  | Special					  | **Integer**									 | functions the same as glow however it returns a 2 rather than a 1
-| 16  | Account ID				  | **Integer**									 | The user's account ID. **This is different than the player ID**
-| 42  | Age						  | **String** 									 | How long ago the score was set (e.g. "2 months")
+| 10  | playerColor 			  | **Integer**									 | The user's primary player color, presumably ordered cronologically from left to right per update
+| 11  | playerColor2			  | **Integer**									 | The user's secondary player color, presumably ordered cronologically from left to right per update
+| 13  | coins        	          | **Integer**									 | Secret coins/number of usercoins you get on a level*
+| 14  | iconType				  | **Integer**									 | The user's icon type indexing an array of `icon, ship, ball, ufo, wave, robot, spider`
+| 15  | special					  | **Integer**									 | functions the same as glow however it returns a 2 rather than a 1
+| 16  | accountID				  | **Integer**									 | The user's account ID. **This is different than the player ID**
+| 42  | age						  | **String** 									 | How long ago the score was set (e.g. "2 months")

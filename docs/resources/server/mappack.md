@@ -8,29 +8,29 @@ A map pack is a series of 3 levels, although it can go higher, handpicked by Rob
 
 | Key | Name/Value | Type | Description |
 | --- | ---------- | ---- | ----------- |
-| 1   | PackID	   | **number** | These have to be correct to load the map packs. Maybe it's a map pack ID?
-| 2   | Name       | **string** | Name of the map pack
-| 3   | Levels	   | **string** | List of level IDs separated by a comma
-| 4   | Stars	   | **number** | How many stars the map pack should give
-| 5   | Coins	   | **number** | How many coins the map pack should give
-| 6   | Difficulty | **number** | Difficulty from 1-10, denoting Easy-Demon respectively
-| 7   | Text Color | **string** | RGB color for the title text separated by ,
-| 8   | Bar Color  | **string** | RGB color for the completion bar separated by ,
+| 1   | packID	   | **number** | the ID for the specified Map Pack
+| 2   | packName       | **string** | Name of the map pack
+| 3   | levels	   | **string** | List of level IDs separated by a `,`
+| 4   | stars	   | **number** | How many stars the map pack should give
+| 5   | coins	   | **number** | How many coins the map pack should give
+| 6   | difficulty | **number** | Difficulty ranging from `0->10`
+| 7   | textColor | **string** | RGB color for the title text separated by `,`
+| 8   | barColor  | **string** | RGB color for the completion bar separated by `,`
 
 
 ### Difficulty structure
 
 | Value | Difficulty |
 |:------|:-----------|
-| 0 |  Auto | 
-| 1 |  Easy | 
-| 2 |  Normal | 
-| 3 |  Hard | 
-| 4 |  Harder | 
-| 5 |  Insane | 
-| 6 |  Hard Demon | 
-| 7 |  Easy Demon | 
-| 8 |  Medium Demon | 
-| 9 |  Insane Demon | 
-| 10 |  Extreme Demon | 
+| 0 |  auto | 
+| 1 |  easy | 
+| 2 |  normal | 
+| 3 |  hard | 
+| 4 |  harder | 
+| 5 |  insane | 
+| 6 |  hard Demon | 
+| 7 |  easy Demon | 
+| 8 |  medium Demon | 
+| 9 |  insane Demon | 
+| 10 |  extreme Demon | 
 
