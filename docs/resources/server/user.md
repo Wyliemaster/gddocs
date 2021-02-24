@@ -6,7 +6,7 @@
 | 2 | Userid | **number** | The ID of player |
 | 3 | Stars | **number** | The count of stars player have |
 | 4 | Demons | **number** | The count of demons player have |
-| 6 | global leaderboard position | **number** | the global leaderboard position of the player |
+| 6 | Ranking | **number** | the global leaderboard position of the player |
 | 7 | accountID | **number** | maybe accountID or else? [link](https://github.com/gd-programming/gddocs/pull/16/files#r417947540) |
 | 8 | Creatorpoints | **number** | The count of creatorpoints player have |
 | 9 | iconID | **number** | maybe... [link](https://github.com/gd-programming/gddocs/pull/16/files#r417926661) |
@@ -35,7 +35,7 @@
 | 39 | FriendRequests | **number** | How many new friend requests the user has (shown in-game as a notificaiton) |
 | 40 | NewFriends | **number** | How many new Friends the user has (shown in-game as a notificaiton) |
 | 41 | hasBlocked | **Bool** | appears on userlist endpoint to show if the user is blocked |
-| 42 | levelScore Time | **String** | the time since you submitted a levelScore |
+| 42 | Age | **String** | the time since you submitted a levelScore |
 | 43 | accSpider | **number** | The spider number of the player use |
 | 44 | twitter| **string** | The twitter of player |
 | 45 | twitch | **string** | The twitch of player |
