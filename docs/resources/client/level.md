@@ -112,6 +112,8 @@ The build tab page is 5, and the button settings are 6x2 (default), meaning the 
 
 **Current Unknown Values**
 
+*Please keep in mind that since this was a leaked version of 2.2, these are subject to change and arent garunteed to be in the final release    *
+
 | Key | Type        | Info                                                     |
 | :-- | :---------- | :------------------------------------------------------- |
 | k91 | **String** | Most likely `settingsString`|

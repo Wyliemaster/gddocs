@@ -30,3 +30,22 @@ The key structure that Leaderboards follow are exactly the same as the structure
 | 15  | special					  | **Integer**									 | functions the same as glow however it returns a 2 rather than a 1
 | 16  | accountID				  | **Integer**									 | The user's account ID. **This is different than the player ID**
 | 42  | age						  | **String** 									 | How long ago the score was set (e.g. "2 months")
+
+## Response Examples
+
+<!-- tabs:start -->
+
+
+### **Level Leaderboard Example**
+
+```md
+    1:TheWylieMaster:2:84696119:9:1:10:4:11:16:14:3:15:2:16:9276649:3:34:6:1:13:0:42:1 second       
+```
+
+### **Star Leaderboard Example**
+
+```md
+    1:xMiguel007:2:2866103:13:149:17:7219:6:1:9:37:10:35:11:3:14:0:15:2:16:70846:3:65710:8:0:46:12879:4:1073        
+```
+
+<!-- tabs:end -->

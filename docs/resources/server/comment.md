@@ -28,8 +28,8 @@ A Comment Object is split into two sections: a `Comment String` and an `Author S
 | 7   | spam                      | **Bool**                                     | if a comment has been flagged as spam
 | 9   | age						  | **String**									 | How long ago the comment was posted (e.g. "2 months")
 | 10  | percent*				  | **Integer**									 | The percent the player put in their comment
-| 11  | modBadge*                | **Integer**                                   | The Mod Badge of a moderator commenting
-| 12  | moderatorChatColor*     | **String**									 | Comma separated list of the RGB values of the moderator's chat color. only appears if `modBadgeID != 0`
+| 11  | modBadge*                 | **Integer**                                   | The Mod Badge of a moderator commenting
+| 12  | moderatorChatColor*       | **String**									 | Comma separated list of the RGB values of the moderator's chat color. only appears if `modBadgeID != 0`
 
 ### User Structure
   
@@ -50,6 +50,21 @@ A Comment Object is split into two sections: a `Comment String` and an `Author S
 - The User String uses the same response parser that [Player Profiles use](/resources/server/user)
 
 - The only example of `Account Comments` where a variant of key `12` was successful is if the accountID of the author is `71` which has the colour hardcoded. 
+ 
+
+### Response Examples
+
+<!-- tabs:start -->
+
+#### **Level Comment Example**
+```md
+ 2~R0QgRG9jcyBhcmUgZXBpYw==~3~84696119~4~0~7~0~10~0~9~2 seconds~6~12872819:1~TheWylieMaster~9~1~10~4~11~16~14~3~15~2~16~9276649       
+```
+
+#### **Account Comment Example**
+```md
+            2~R0QgRG9jcyBhcmUgZXBpYw==~4~11~9~3 months~6~18083050
+```
 
 
-
+<!-- tabs:end -->

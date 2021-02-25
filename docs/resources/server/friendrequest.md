@@ -2,7 +2,7 @@
 
 ## Friend Request
 
-One of the features in Geometry Dash is the friend system which allows players to add each other as a friend
+One of the features in Geometry Dash is the friend system which allows players to add each other as a friend. It is part of a poorly developped social System in which players can send messages to each other.
 
 #### Friend Request Structure
 
@@ -22,3 +22,15 @@ One of the features in Geometry Dash is the friend system which allows players t
 | 35  | message					  | **String**									 | The friend requests's message, encoded in [base64](/topics/encryption/base64.md)
 | 37  | age						  | **String** 									 | How long ago the friend request was sent (e.g. "2 months")
 | 41  | isBlocked			      | **Bool**									 | if you have blocked the user
+
+
+### Response Examples
+
+
+<!-- tabs:start -->
+
+#### **Friend Request Example**
+```md
+        1:TheWylieMaster:2:84696119:9:9:10:5:11:3:14:1:15:0:16:9276649:32:45272143:35:aGVsbG8=:41:1:37:1 week        
+```
+<!-- tabs:end -->

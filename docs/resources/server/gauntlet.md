@@ -71,5 +71,14 @@ Gauntlets are a collection of themed levels created by the users of Geometry Das
   | 44| Temple|
 
 
+### Response Examples
 
+
+<!-- tabs:start -->
+
+#### **Gauntlet Example Response**
+```md
+    1:1:3:27732941,28200611,27483789,28225110,27448202|1:2:3:20635816,28151870,25969464,24302376,27399722 
+```
+<!-- tabs:end -->
 
