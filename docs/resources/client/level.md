@@ -114,7 +114,7 @@ The build tab page is 5, and the button settings are 6x2 (default), meaning the 
 
 | Key | Type        | Info                                                     |
 | :-- | :---------- | :------------------------------------------------------- |
-| k91 | **string** | |
-| k92 | **integer** | |
-| k93 | **Bool** | unlimited Objects? |
-| k94 | **Bool** | Platformer? |
+| k91 | **String** | Most likely `settingsString`|
+| k92 | **Integer** |  |
+| k93 | **Bool** | Most Likely `UnlimitedObjects_` |
+| k94 | **Bool** | Most Likely `FriendsOnly_` |

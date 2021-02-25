@@ -50,5 +50,5 @@ Keys indicated with an asterisk (\*) are only returned from the downloadGJLevel2
 | 45  | objects                   | **number** 				                     | The amount of objects in the level, used to determine if the level is considered "large". It caps at 65535     
 | 46  | editorTime                | **number** 				                     | 
 | 47  | editorTime(Copies)        | **number** 				                     | 
-| 48  | unknown                   | **String**                                   | not found it GD 2.1's parser however it is in 2.2's parser suggesting that it was a 2.2 key that rob accidentally sent from the servers seems to be unused after testing it |
+| 48  | settingsString [Unused] | **String**                                     | It was found in early 2.1 coming from the servers and was removed shortly after. The `December 2019 2.2 Leaks` however have information regarding it showing that it is called `settingsString` but, there is no information regarding its usage|
 

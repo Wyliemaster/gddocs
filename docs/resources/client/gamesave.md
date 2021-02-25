@@ -27,7 +27,7 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | playerIconType| [Icon](enumerations.md)| The Index of the player's IconType |
 | playerGlow| Bool| if Glow is enabled or not |
 | secretNumber| Integer| the answer to `cod3breaker` in the vault of secrets |
-| hasRP       | Bool | If the player has a Registered account |
+| hasRP       | Integer | has Rating power, shows the Mod Rank of the player |
 | [valueKeeper](/resources/client/gamesave/valueKeeper.md)| Dictionary | Dictionary filled with GV values you have enabled |
 | unlockValueKeeper | Dictionary | Dictionary of Unlockable GV values|
 | customObjectDict| Dictionary | Dictionary of object data of custom objects saved|
