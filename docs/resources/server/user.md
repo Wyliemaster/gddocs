@@ -48,7 +48,7 @@ A list of all known keys can be found in the table below
 | 29 | isRegistered | **Integer** | if an account is registered or not |
 | 30 | globalRank | **Integer** | The global rank of this player |
 | 31 | friendstate | **Integer** | 0: None, 1: already is friend, 3: send request to target, but target haven't accept, 4: target send request, but haven't accept 
-| 38 | messages | **Integer** | How many new messages the user has (shown in-game as a notificaiton) |
+| 38 | messages | **Integer** | How many new messages the user has (shown in-game as a notificaiton) | <!-- there are a bunch of keys before here but they are exclusive to friend requests so i didnt add them here -->
 | 39 | friendRequests | **Integer** | How many new friend requests the user has (shown in-game as a notificaiton) |
 | 40 | newFriends | **Integer** | How many new Friends the user has (shown in-game as a notificaiton) |
 | 41 | hasBlocked | **Bool** | appears on userlist endpoint to show if the user is blocked |
