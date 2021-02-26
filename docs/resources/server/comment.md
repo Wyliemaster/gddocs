@@ -72,7 +72,7 @@ A list of all known keys can be found in the table below
 
 - The only example of `Account Comments` where it was able to display a colour is with [RobTop's](https://gdbrowser.com/u/71) profile, this is because Robtop hardcoded the account colour into the accountID of `71`
 
-- In the [December 2019 2.2 leaks](), a key wih the ID of `8` can be found hardcoded into a string for the `Versus Mode` feature - it seems to be linked to accountID as you can see from [this piece of pseudocode](https://media.discordapp.net/attachments/787081465867010079/806568054876143629/unknown.png)
+- In the [December 2019 2.2 leaks](https://www.reddit.com/r/geometrydash/comments/e9b0y6/update_22_leaks_megathread/), a key wih the ID of `8` can be found hardcoded into a string for the `Versus Mode` feature - it seems to be linked to accountID as you can see from [this piece of pseudocode](https://media.discordapp.net/attachments/787081465867010079/806568054876143629/unknown.png)
  
 
 
