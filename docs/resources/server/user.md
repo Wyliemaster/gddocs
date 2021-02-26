@@ -65,3 +65,5 @@ A list of all known keys can be found in the table below
 
 - Setting Key `29` to `0` stops most aspects of your profile from loading
 
+- key `27` is impossible to recieve from the server as there is no way for the server to know what the player's `streak` is
+
