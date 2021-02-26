@@ -9,6 +9,18 @@ Gauntlets are a collection of themed levels created by the users of Geometry Das
   - According to the [December 2019 2.2 leaks](https://www.reddit.com/r/geometrydash/comments/e9b0y6/update_22_leaks_megathread/), 2.2 will include `44 Gauntlets`
     - **A list of the Gauntlet Names can be found [here](/resources/server/gauntlet?id=gauntlet-names)**<br/>*Keep in mind that these are subject to change*
 
+A typical Gauntlet Server response is structured with a `key:value:key:value` pairing and is then split with a `|`
+<!-- tabs:start -->
+
+#### **Gauntlet Example Response**
+```md
+    1:1:3:27732941,28200611,27483789,28225110,27448202|1:2:3:20635816,28151870,25969464,24302376,27399722 
+```
+<!-- tabs:end -->
+
+Each `key` is tied to a component within the client and the `value` sets data for the specific component.  
+A list of all known keys can be found in the table below
+
 ### Gauntlet Structure
 
 | Key | Name/Value | Type       | Description                           |
@@ -16,12 +28,9 @@ Gauntlets are a collection of themed levels created by the users of Geometry Das
 | 1   | gauntletID | **Integer**| the Gauntlet ID, starting at 1        |
 | 3   | levels     | **String** | List of gauntlet level IDs seperated by `,`|
 
-### Trivia
-
-- Gauntlets use the same response parser as [MapPacks](/resources/server/mappack) but they do not share the full range of features mappacks have
-
 ### Gauntlet names
 
+Here is a table which shows which `gauntletID` corresponds to a specific gauntlet
 
 | ID ⠀| Name |
 |:---|:-----|
@@ -70,15 +79,6 @@ Gauntlets are a collection of themed levels created by the users of Geometry Das
   | 43| Grave|
   | 44| Temple|
 
+### Trivia
 
-### Response Examples
-
-
-<!-- tabs:start -->
-
-#### **Gauntlet Example Response**
-```md
-    1:1:3:27732941,28200611,27483789,28225110,27448202|1:2:3:20635816,28151870,25969464,24302376,27399722 
-```
-<!-- tabs:end -->
-
+- Gauntlets use the same response parser as [MapPacks](/resources/server/mappack) but they do not share the full range of features mappacks have

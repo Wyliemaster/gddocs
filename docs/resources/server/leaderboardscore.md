@@ -11,9 +11,30 @@ Leadboards are the in-game ranking system for Geometry Dash. There are `7` Types
 > - `Global Weekly Level Scores` - The fastest victors to a specific level since the last `604800` seconds
 > - `Friend Level Scores` - The fastest victors to a specific level between the user and his friends since the level was uploaded to the servers
 
+A typical Leaderboard Server response is structured with a `key:value:key:value` pairing and is then split with a `|`
+
+<!-- tabs:start -->
+
+
+### **Level Leaderboard Example**
+
+```md
+    1:TheWylieMaster:2:84696119:9:1:10:4:11:16:14:3:15:2:16:9276649:3:34:6:1:13:0:42:1 second       
+```
+
+### **Top Leaderboard Example**
+
+```md
+    1:xMiguel007:2:2866103:13:149:17:7219:6:1:9:37:10:35:11:3:14:0:15:2:16:70846:3:65710:8:0:46:12879:4:1073        
+```
+
+<!-- tabs:end -->
+
+Each `key` is tied to a component within the client and the `value` sets data for the specific component.  
+A list of all known keys can be found in the table below
+
 ### Leaderboard Score Structure
 
-The key structure that Leaderboards follow are exactly the same as the structure used for [Player Profiles](/resources/server/user.md)  
 **Note:** keys marked by a `*` are only used for Level Leaderboards
 
 | Key | Name/Value                | Type                                         | Description                                                              
@@ -31,21 +52,6 @@ The key structure that Leaderboards follow are exactly the same as the structure
 | 16  | accountID				  | **Integer**									 | The user's account ID. **This is different than the player ID**
 | 42  | age						  | **String** 									 | How long ago the score was set (e.g. "2 months")
 
-## Response Examples
+### Trivia
 
-<!-- tabs:start -->
-
-
-### **Level Leaderboard Example**
-
-```md
-    1:TheWylieMaster:2:84696119:9:1:10:4:11:16:14:3:15:2:16:9276649:3:34:6:1:13:0:42:1 second       
-```
-
-### **Star Leaderboard Example**
-
-```md
-    1:xMiguel007:2:2866103:13:149:17:7219:6:1:9:37:10:35:11:3:14:0:15:2:16:70846:3:65710:8:0:46:12879:4:1073        
-```
-
-<!-- tabs:end -->
+- The key structure that Leaderboards follow are exactly the same as the structure used for [Player Profiles](/resources/server/user.md)  
