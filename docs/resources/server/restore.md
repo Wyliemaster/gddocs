@@ -4,6 +4,9 @@
 
 `Restore` was a feature used in Geometry dash from Versions `1.7 - 2.0` and it was used as an alternative to the [Account System](/topics/accounts.md) that is currently used as of 2.11
 
+A typical Gauntlet Server response is structured with a `key:value:key:value` pairing
+
+> - Due to lack of resources about RestoreGJItems, most information has been lost to time.<br/>The only remaining archived response that we know about can be found [here](https://imgur.com/a/pPUu933)
 
 ### Restore Items Structure
 
