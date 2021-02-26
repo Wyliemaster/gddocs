@@ -14,6 +14,27 @@ A Comment Object is split into two sections: a `Comment String` and an `Author S
 > - The `Comment String` contains all the data regarding the comment itself<br/><br/>
 > - The `User String` contains all the data regarding the user who is commenting
 
+The `Comment String` and `User String` are both structured with a `key~value~key~value` pairing. Here is some examples of raw responses from the server
+
+
+<!-- tabs:start -->
+
+#### **Level Comment Example**
+```md
+ 2~R0QgRG9jcyBhcmUgZXBpYw==~3~84696119~4~0~7~0~10~0~9~2 seconds~6~12872819:1~TheWylieMaster~9~1~10~4~11~16~14~3~15~2~16~9276649       
+```
+
+#### **Account Comment Example**
+```md
+            2~R0QgRG9jcyBhcmUgZXBpYw==~4~11~9~3 months~6~18083050
+```
+
+
+<!-- tabs:end -->
+
+Each `key` is tied to a component within the client and the `value` sets data for the specific component.  
+A list of all known keys can be found in the table below
+
 ### Comment Structure
 
 **Note:** Keys marked with an asterisk `*` do not affect `Account Comments`
@@ -25,7 +46,7 @@ A Comment Object is split into two sections: a `Comment String` and an `Author S
 | 3   | author*					  | **Integer**									 | The player ID of the author. **This is different than the account ID**
 | 4   | likes					  | **Integer**									 | The amount of likes the comment has
 | 6   | messageID				  | **Integer**									 | The message ID. Account comments have different IDs than level comments
-| 7   | spam                      | **Bool**                                     | if a comment has been flagged as spam
+| 7   | spam                      | **Bool**                                     | If a comment has been flagged as spam
 | 9   | age						  | **String**									 | How long ago the comment was posted (e.g. "2 months")
 | 10  | percent*				  | **Integer**									 | The percent the player put in their comment
 | 11  | modBadge*                 | **Integer**                                   | The Mod Badge of a moderator commenting
@@ -49,22 +70,9 @@ A Comment Object is split into two sections: a `Comment String` and an `Author S
 
 - The User String uses the same response parser that [Player Profiles use](/resources/server/user)
 
-- The only example of `Account Comments` where a variant of key `12` was successful is if the accountID of the author is `71` which has the colour hardcoded. 
+- The only example of `Account Comments` where it was able to display a colour is with [RobTop's](https://gdbrowser.com/u/71) profile, this is because Robtop hardcoded the account colour into the accountID of `71`
+
+- In the [December 2019 2.2 leaks](), a key wih the ID of `8` can be found hardcoded into a string for the `Versus Mode` feature - it seems to be linked to accountID as you can see from [this piece of pseudocode](https://media.discordapp.net/attachments/787081465867010079/806568054876143629/unknown.png)
  
 
-### Response Examples
 
-<!-- tabs:start -->
-
-#### **Level Comment Example**
-```md
- 2~R0QgRG9jcyBhcmUgZXBpYw==~3~84696119~4~0~7~0~10~0~9~2 seconds~6~12872819:1~TheWylieMaster~9~1~10~4~11~16~14~3~15~2~16~9276649       
-```
-
-#### **Account Comment Example**
-```md
-            2~R0QgRG9jcyBhcmUgZXBpYw==~4~11~9~3 months~6~18083050
-```
-
-
-<!-- tabs:end -->
