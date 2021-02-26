@@ -36,3 +36,6 @@ A list of all known keys can be found in the table below
 | 37  | age						  | **String** 									 | How long ago the friend request was sent (e.g. "2 months")
 | 41  | isBlocked			      | **Bool**									 | if you have blocked the user
 
+### Trivia
+
+- By sending yourself a friend request, you can actually block yourself

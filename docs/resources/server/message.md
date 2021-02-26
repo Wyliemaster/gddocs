@@ -8,6 +8,18 @@ Messages are a feature in Geometry dash where you can send messages to other pla
 
 > `Message` can be viewed only if you download the message by clicking on the `view` button in the messages menu - without any external Tools, the `Messages` field only supports 200 characters
 
+A typical Message Server response is structured with a `key:value:key:value` pairing and is then split with a `|`
+<!-- tabs:start -->
+
+#### **Message Example Response**
+```md
+6:DevExit:3:3935672:2:173831:1:54109536:4:WW91J3JlIGR1bWIgbG9s:8:1:9:0:5:TWhtIHllcCB5b3UncmUgcCBkdW1iIGxtYW8=:7:19 minutes
+```
+<!-- tabs:end -->
+
+Each `key` is tied to a component within the client and the `value` sets data for the specific component.  
+A list of all known keys can be found in the table below
+
 ### Message Structure
 
 **Note:** We will use "other user" to describe the user on the other side of the message, be it the receiving end or the sending end.
@@ -23,3 +35,9 @@ Messages are a feature in Geometry dash where you can send messages to other pla
 | 7   | age		   | **String** | How long ago the message was sent (e.g. "2 months")
 | 8	  | read	   | **Bool** | 0 if the message hasn't been read, 1 if it has
 | 9	  | sender	   | **Bool** | 0 if the user is receiving the message, 1 if they sent it
+
+### Trivia
+
+- The current message system has a bug in which replying to a message will fail. This is because the client does not have any checks to see if the other user has their messages open when replying so if you send a reply to a user who has their messages closed, the request will return the error code `-1`
+
+- due to an oversight, you are able to block yourself if you send yourself a message
