@@ -1,5 +1,22 @@
 # Server User Resource
 
+## Users
+
+Each player of Geometry Dash have their own profile which includes various different elements such as in-game stats, icons and even socials.
+
+A typical User Server response is structured with a `key:value:key:value` pairing and is then split with a `|`
+
+<!-- tabs:start -->
+
+#### **User Example Response**
+```md
+1:TheWylieMaster:2:84696119:13:67:17:176:10:4:11:16:3:1725:46:2991:4:33:8:0:18:0:19:0:50:0:20:../watch?v=dQw4w9WgXcQ:21:31:22:10:23:30:24:1:25:35:26:23:28:1:43:11:48:1:30:0:16:9276649:31:0:44:TheWylieMaster:45::49:0:38:0:39:0:40:0:41:1:29:1
+```
+<!-- tabs:end -->
+
+Each `key` is tied to a component within the client and the `value` sets data for the specific component.  
+A list of all known keys can be found in the table below
+
 | Key | Name/Value | Type | Description |
 | --- | ---------- | ---- | ----------- |
 | 1 | userName | **string** | The name of player |
@@ -44,8 +61,7 @@
 | 49 | modlevel | **number** | 0: None, 1: Normal Mod(yellow), 2: Elder Mod(orange) |
 | 50 | commentHistoryState | **number** | 0: All, 1: Only friends, 2: None |
 
+### Trivia
 
-Example:
-```
-1:WOSHIZHAZHA120:2:10086790:13:0:17:0:10:0:11:3:3:0:46:0:4:0:8:0:18:0:19:0:50:0:20:WOSHIZHAZHA120:21:1:22:1:23:1:24:1:25:1:26:1:28:0:43:1:48:1:30:355655:16:1889402:31:0:44:WOSHIZHAZHA120:45:WOSHIZHAZHA120:49:0:29:1
-```
+- Setting Key `29` to `0` stops most aspects of your profile from loading
+
