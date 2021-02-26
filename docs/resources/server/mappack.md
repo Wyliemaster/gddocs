@@ -33,7 +33,9 @@ A list of all known keys can be found in the table below
 
 ### Trivia
 
-- although Map Packs only show a hard demon in-game, they can actually display each demon difficulty
+- Map Packs use the same response parser as Gauntlets
+
+- Although Map Packs only show a hard demon in-game, they can actually display each demon difficulty
 
 | Value | Difficulty |
 |:------|:-----------|
