@@ -4,6 +4,19 @@
 
 One of the features in Geometry Dash is the friend system which allows players to add each other as a friend. It is part of a poorly developped social System in which players can send messages to each other.
 
+The Server Response returns a [User String](/resources/server/user) in a response which is structured with a `key:value:key:value` pairing. Each Friend Request String is then split with a `|`
+
+<!-- tabs:start -->
+
+#### **Friend Request Example**
+```md
+        1:TheWylieMaster:2:84696119:9:9:10:5:11:3:14:1:15:0:16:9276649:32:45272143:35:aGVsbG8=:41:1:37:1 week        
+```
+<!-- tabs:end -->
+
+Each `key` is tied to a component within the client and the `value` sets data for the specific component.  
+A list of all known keys can be found in the table below
+
 #### Friend Request Structure
 
 **Note:** We will use "other user" to describe the user on the other side of the friend request, be it the receiving end or the sending end.
@@ -23,14 +36,3 @@ One of the features in Geometry Dash is the friend system which allows players t
 | 37  | age						  | **String** 									 | How long ago the friend request was sent (e.g. "2 months")
 | 41  | isBlocked			      | **Bool**									 | if you have blocked the user
 
-
-### Response Examples
-
-
-<!-- tabs:start -->
-
-#### **Friend Request Example**
-```md
-        1:TheWylieMaster:2:84696119:9:9:10:5:11:3:14:1:15:0:16:9276649:32:45272143:35:aGVsbG8=:41:1:37:1 week        
-```
-<!-- tabs:end -->
