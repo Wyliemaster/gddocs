@@ -66,6 +66,23 @@ A list of all known keys can be found in the table below
 | 15  | glow					  | **Integer**									 | 0 = no glow, 2 = glow
 | 16  | accountID				  | **Integer**									 | Author's account ID. **This is different than the player ID**
 
+### Comment Bans
+
+If a user Violates [the commenting rules](https://imgur.com/a/US0Biaj), they can be banned from posting a comment.
+> As of Geometry Dash Version 2.11, there are 2 different types of bans<br/>  
+> - Permanent Bans - Only way to recieve one is by RobTop directly. The server response to trigger this is `-10`  
+> - Temporary Bans - Elder Moderators and robtop are able to enforce these onto people. The server response to trigger Temporary bans is split into 3 components `temp_{length}_{reason}`
+
+#### Temporary Ban Structure
+
+| Component | Description |
+|:----------|:------------|
+| `temp` | is used for the game to identify if the user is banned |
+| `length` | The duration of the ban in seconds |
+| `reason` | The reason the user was banned |
+
+
+
 ### Trivia
 
 - The User String uses the same response parser that [Player Profiles use](/resources/server/user)
