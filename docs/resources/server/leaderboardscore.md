@@ -19,13 +19,13 @@ A typical Leaderboard Server response is structured with a `key:value:key:value`
 ### **Level Leaderboard Example**
 
 ```md
-    1:TheWylieMaster:2:84696119:9:1:10:4:11:16:14:3:15:2:16:9276649:3:34:6:1:13:0:42:1 second       
+1:TheWylieMaster:2:84696119:9:1:10:4:11:16:14:3:15:2:16:9276649:3:34:6:1:13:0:42:1 second       
 ```
 
 ### **Top Leaderboard Example**
 
 ```md
-    1:xMiguel007:2:2866103:13:149:17:7219:6:1:9:37:10:35:11:3:14:0:15:2:16:70846:3:65710:8:0:46:12879:4:1073        
+1:xMiguel007:2:2866103:13:149:17:7219:6:1:9:37:10:35:11:3:14:0:15:2:16:70846:3:65710:8:0:46:12879:4:1073        
 ```
 
 <!-- tabs:end -->

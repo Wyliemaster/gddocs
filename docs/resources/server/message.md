@@ -26,9 +26,9 @@ A list of all known keys can be found in the table below
 
 | Key | Name/Value | Type | Description |
 | --- | ---------- | ---- | ----------- |
-| 1   | messageID | **Integer** | The message ID
-| 2   | accountID | **Integer** | The other user's account ID
-| 3   | playerID  | **Integer** | The other user's player ID
+| 1   | messageID  | **Integer** | The message ID
+| 2   | accountID  | **Integer** | The other user's account ID
+| 3   | playerID   | **Integer** | The other user's player ID
 | 4   | title      | **String** | The title encoded in [Base64](/topics/encryption/base64.md)
 | 5   | messageContent | **String** | The message which has been [Xor'd](/topics/encryption/xor.md) with a key of `14251` and then encoded in [base64](/topics/encryption/base64.md)
 | 6   | userName   | **String** | The other user's username
@@ -38,6 +38,6 @@ A list of all known keys can be found in the table below
 
 ### Trivia
 
-- The current message system has a bug in which replying to a message will fail. This is because the client does not have any checks to see if the other user has their messages open when replying so if you send a reply to a user who has their messages closed, the request will return the error code `-1`
+- The current message system has a bug in which replying to a message will fail. This is because the client does not have any checks to see if the other user has their messages open when replying so if you send a reply to a user who has their messages closed, the request will return the error code `-1` resulting in it failing
 
-- due to an oversight, you are able to block yourself if you send yourself a message
+- due to an oversight, you are able to block yourself if you send yourself a message. [Cvolton](https://github.com/Cvolton) explains this oversight in one of his [videos](https://www.youtube.com/watch?v=R18tKYFrIqE)

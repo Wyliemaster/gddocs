@@ -14,7 +14,7 @@ A typical Gauntlet Server response is structured with a `key:value:key:value` pa
 
 #### **Gauntlet Example Response**
 ```md
-    1:1:3:27732941,28200611,27483789,28225110,27448202|1:2:3:20635816,28151870,25969464,24302376,27399722 
+1:1:3:27732941,28200611,27483789,28225110,27448202|1:2:3:20635816,28151870,25969464,24302376,27399722 
 ```
 <!-- tabs:end -->
 
@@ -31,6 +31,8 @@ A list of all known keys can be found in the table below
 ### Gauntlet names
 
 Here is a table which shows which `gauntletID` corresponds to a specific gauntlet
+
+<!-- table made with a json to mdtable script so it looks ugky :/-->
 
 | ID ⠀| Name |
 |:---|:-----|
