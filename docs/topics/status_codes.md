@@ -47,6 +47,7 @@ Events over the Geometry Dash servers usually send an error code denoting that t
 | `-5`   | Bad login info | Invalid login info was provided  |
 | `-6`   | Something went wrong | Something went wrong on the servers' end |
 
+
 #### suggestGJStars/rateGJDemon
 
 | Code | Name | Description |
