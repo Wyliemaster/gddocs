@@ -105,6 +105,7 @@
 
 **Topics**
 
+- [Enums](/enumerations.md)
 - [Level Passwords](/topics/level_passwords.md)
 - [Level Encoding/Decoding](/topics/levelstring_encoding_decoding.md)
 - [Game Save Files Encryption/Decryption](/topics/localfiles_encrypt_decrypt.md)
