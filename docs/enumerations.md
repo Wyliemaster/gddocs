@@ -114,7 +114,7 @@ enum GJSearchType
   kGJSearchTypeMagic = 7,
   kGJSearchTypeSends = 8,
   kGJSearchTypeMapPack = 9,
-  kGJSearchTypeMapPackClaim = 10,
+  kGJSearchTypeMapPackLevels = 10,
   kGJSearchTypeAwarded = 11,
   kGJSearchTypeFollowed = 12,
   kGJSearchTypeFriends = 13,
