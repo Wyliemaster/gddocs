@@ -1,6 +1,6 @@
-<div align="center">
-    <img src="https://github.com/gd-programming/gddocs/blob/master/assets/gddocs-icon.png?raw=true" height="128" width="128" alt="book">
-</div>
+<p align="center">
+  <img src="https://github.com/gd-programming/gd.docs/blob/main/assets/gddocs-icon.png?raw=true" alt="book"/>
+</p>
 
 # GDDocs
 
