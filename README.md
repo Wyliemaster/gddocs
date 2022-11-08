@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/gd-programming/gd.docs/blob/main/assets/gddocs-icon.png?raw=true" alt="book"/>
+  <img src="https://github.com/gd-programming/gd.docs/blob/main/assets/gddocs-icon.png?raw=true" height="128" width="128" alt="book"/>
 </p>
 
 # GDDocs
