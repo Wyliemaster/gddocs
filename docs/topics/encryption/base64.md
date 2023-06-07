@@ -46,3 +46,28 @@
 ## Padding
 
 > The padding character is `=` however, it is optional as the Geometry Dash servers will automatically correct strings that do not have any padding
+
+## Fun Fact
+
+**Due to the way the buffer which stores the encoded data is allocated, there are some side effects.**
+```cpp
+// Pseudocode
+unsigned int base64Encode(char *data, int length, char *buff, bool url_safe)
+{
+    // Calculating the size of the encoded data
+    int padding = (length % 3) != 0 ? 4 : 0;
+    int alloc_size = (padding + 4) * (length / 3);
+
+    // using malloc here is a bad idea as the data does not
+    // get set. It is expected that the developer resets
+    // the data
+    char* base64_data = (char*)malloc(alloc_size + 1);
+
+    // The actual base 64 decoding
+    if ( base64_data )
+        cocos2d::_base64Encode(data, length, base64_data, url_safe);
+    return alloc_size;
+}
+```
+
+> As malloc does not set the data for the developer, the current state of memory will be inside of the buffer. In most cases, the data will already be null however, in the events that memory wasn't already null, garbage data will be returned at the end of the base64 data
