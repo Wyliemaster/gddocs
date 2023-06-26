@@ -88,7 +88,7 @@ Local Level Manager is stored inside of the `CCLocalLevels` and contains all loc
 <!-- Links -->
 
 [SAVE]: #
-[PLIST]: #
+[PLIST]: /topics/files/plist.md
 [UDID]: #
 [MODERATOR]: #
 [VAULT]: #
