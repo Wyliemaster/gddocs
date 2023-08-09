@@ -23,8 +23,8 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0015 | flipPauseButton |
 | gv_0016 | showedSongTOS |
 | gv_0018 | noSongLimit |
-| gv_0019 | songsInMemory |
-| gv_0022 | higherAudioQuality |
+| gv_0019 | songsInMemory | <!--Note: This option pre-loads songs in memory rather than streaming the data-->
+| gv_0022 | higherAudioQuality | <!-- Changes the song's sample rate from 24000hz to 44100hz-->
 | gv_0023 | smoothFix |
 | gv_0024 | showCursor In-Game |
 | gv_0025 | Windowed Mode |
