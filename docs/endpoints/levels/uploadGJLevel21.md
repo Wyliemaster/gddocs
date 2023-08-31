@@ -112,14 +112,20 @@ data = {
 	"secret": "Wmfd2893gb7"
 }
 
-req = requests.post("http://boomlings.com/database/uploadGJLevel21.php", data=data)
+headers = {
+    "User-Agent": ""
+}
+
+url = "http://www.boomlings.com/database/uploadGJLevel21.php"
+
+req = requests.post(url=url, data=data, headers=headers)
 print(req.text)
 ```
+<!-- tabs:end -->
 
 **Response**
 
-```py
+```plain
 62687277
 ```
 
-<!-- tabs:end -->
