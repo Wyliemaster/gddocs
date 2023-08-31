@@ -140,7 +140,7 @@ headers = {
 data = {
     "str": "bloodbath",
     "star": 1,
-    "type": 0
+    "type": 0,
     "secret": "Wmfd2893gb7",
 }
 

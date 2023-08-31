@@ -53,7 +53,7 @@ headers = {
 
 data = {
     "levelID": 128,
-    "secret": "Wmfd2893gb7",
+    "secret": "Wmfd2893gb7"
 }
 
 url = "http://www.boomlings.com/database/downloadGJLevel22.php"
