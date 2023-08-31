@@ -87,29 +87,29 @@ import requests
 levelString = "H4sIAAAAAAAAC6WQwQ3DIAxFF3IlfxsIUU6ZIQP8AbJChy_GPSZqpF7-A4yfDOfhXcCiNMIqnVYrgYQl8rDwBTZCVbkQRI3oVHbiDU6F2jMF_lesl4q4kw2PJMbovxLBQxTpM3-I6q0oHmXjzx7N0240cu5w0UBNtESRkble8uSLHjh8nTubmYJZ2MvMrEITEN0gEJMxlLiMZ28frmj"
 
 data = {
-	"gameVersion": 21,
-	"accountID": 173831, # This is DevExit's account ID
-	"gjp": "*******", # This would be DevExit's password encoded with GJP encryption
-	"userName": "devexit",
-	"levelID": 0,
-	"levelName": "Test", # The level name is Test
-	"levelDesc": "QSB0ZXN0IGxldmVsIGZvciB0aGUgR0QgRG9jcyE", # "A test level for the GD Docs!"
-	"levelVersion": 1,
-	"levelLength": 0,
-	"audioTrack": 0, # This uses a newgrounds song
-	"auto": 0,
-	"password": 314159,
-	"original": 55610687,
-	"twoPlayer": 0,
-	"songID": 546561, # NK - Jawbreaker
-	"objects": 1,
-	"coins": 0,
-	"requestedStars": 50,
-	"unlisted": 1, # This level is unlisted, but does exist!
-	"ldm": 0,
-	"levelString": levelString, # The level string for the level described above
-	"seed2": generate_chk(key="41274", values=[generate_upload_seed(levelString)], salt="xI25fpAapCQg"), # This is talked about in the CHK encryption,
-	"secret": "Wmfd2893gb7"
+    "gameVersion": 21,
+    "accountID": 173831, # This is DevExit's account ID
+    "gjp": "*******", # This would be DevExit's password encoded with GJP encryption
+    "userName": "devexit",
+    "levelID": 0,
+    "levelName": "Test", # The level name is Test
+    "levelDesc": "QSB0ZXN0IGxldmVsIGZvciB0aGUgR0QgRG9jcyE", # "A test level for the GD Docs!"
+    "levelVersion": 1,
+    "levelLength": 0,
+    "audioTrack": 0, # This uses a newgrounds song
+    "auto": 0,
+    "password": 314159,
+    "original": 55610687,
+    "twoPlayer": 0,
+    "songID": 546561, # NK - Jawbreaker
+    "objects": 1,
+    "coins": 0,
+    "requestedStars": 50,
+    "unlisted": 1, # This level is unlisted, but does exist!
+    "ldm": 0,
+    "levelString": levelString, # The level string for the level described above
+    "seed2": generate_chk(key="41274", values=[generate_upload_seed(levelString)], salt="xI25fpAapCQg"), # This is talked about in the CHK encryption,
+    "secret": "Wmfd2893gb7"
 }
 
 headers = {
