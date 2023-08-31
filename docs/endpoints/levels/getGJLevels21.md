@@ -125,21 +125,38 @@ where:
 
 If the request is not successful, it will return `-1`
 
-## Example
 
-```js
-// pseudo code!
-request({
-  type: "POST",
-  url: "http://www.boomlings.com/database/getGJLevels21.php",
-  data: {
-    secret: "Wmfd2893gb7",
-    str: "bloodbath",
-    star: "1",
-    type: "0",
-  },
-});
+<!-- tabs:start -->
+
+### **Python**
+
+```py
+import requests
+
+headers = {
+    "User-Agent": ""
+}
+
+data = {
+    "str": "bloodbath",
+    "star": 1,
+    "type": 0
+    "secret": "Wmfd2893gb7",
+}
+
+url = "http://www.boomlings.com/database/getGJLevels21.php"
+
+req = requests.post(url=url, data=data, headers=headers)
+print(req.text)
 ```
+
+### **curl**
+
+```plain
+curl http://www.boomlings.com/database/getGJLevels21.php -A "" -d "str=bloodbath&star=1&type=0&secret=Wmfd2893gb7"
+```
+
+<!-- tabs:end -->
 
 ### Output
 
