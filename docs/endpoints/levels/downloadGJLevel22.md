@@ -20,7 +20,7 @@ Downloads a user level and info so it can be played.
 
 **accountID** - The account ID of the user who is downloading the level
 
-**gjp** - The [GJP](/topics/encryption/gjp.md) of the user who is downloading the level
+**gjp** - The [GJP](/topics/gjp.md) of the user who is downloading the level
 
 **udid** - The [udid](/topics/encryption/id?id=udid) of the user who is downloading the level
 

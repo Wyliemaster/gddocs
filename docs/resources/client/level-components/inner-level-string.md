@@ -1,17 +1,17 @@
 # Client Inner Level String Resource
 
 ## Inner Level String
-The inner level string consists of information about the starting state of the level and the objects it contains. It is encoded in [base64](). Its raw representation is formatted as follows:
+The inner level string consists of information about the starting state of the level and the objects it contains. It is encoded in [base64](/topics/encryption/base64.md). Its raw representation is formatted as follows:
 
 `{level_start};{object_string}`, where
 
 - `level_start` is the level start object,
-- `object_string` is the [object string]().
+- `object_string` is the [object string](/resources/client/level-components/level-object.md?id=object-string).
 
 Theoretically, the inner level string in its entirety is the object string, however the level start object is treated specially, unlike every other object, and doesn't even have an ID.
 
 ## Level Start Object
-The level start object is still an object and formated exactly like a normal [level object](level-object.md), but has the following properties instead:
+The level start object is still an object and formated exactly like a normal [level object](/resources/client/level-components/level-object.md), but has the following properties instead:
 
 | Key  | Name                   | Type                                        | Description                                                                                                    |
 |:-----|:-----------------------|:--------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
@@ -26,13 +26,13 @@ The level start object is still an object and formated exactly like a normal [le
 | kA10 | 2-Player Mode          | **bool**                                    | determines whether 2-Player Mode is toggled on for this level                                                  |
 | kA11 | Flip Gravity           | **bool**                                    | determines whether the player starts off in flipped Gravity                                                    |
 | kA13 | Song Offset            | **float**                                   | the song offset in seconds from which the level begins                                                         |
-| kA14 | Guidelines             | **[Guideline String](guideline-string.md)** | the editor song guidelines of the level                                                                        |
+| kA14 | Guidelines             | **[Guideline String](/resources/client/level-components/guideline-string.md)** | the editor song guidelines of the level                                                                        |
 | kA15 | Fade In                | **bool**                                    | determines whether the song will fade in as soon as the level starts                                           |
 | kA16 | Fade Out               | **bool**                                    | determines whether the song will fade in as soon as the level ends                                             |
 | kA17 | Ground Line            | **integer**                                 | the ID of the ground line that is being used in the level                                                      |
 | kA18 | Font                   | **integer**                                 | the ID of the font that is being used in the level                                                             |
 | kA22 | Platformer Mode        | **Bool**                                    | If platformer Mode is toggled on or off (currently only available in the December 2019 2.2 leaks)              |
-| kS38 | Colors                 | **[Color String](color-string.md)**         | the color channels that are being used in this level                                                           |
+| kS38 | Colors                 | **[Color String](/resources/client/level-components/color-string.md)**         | the color channels that are being used in this level                                                           |
 | kS39 | Color Page             | **integer**                                 | the color page which was last displayed in the color channel display window                                    |
 
 ***Pre-2.0 Keys***

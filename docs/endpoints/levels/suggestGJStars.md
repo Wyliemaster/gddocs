@@ -8,7 +8,7 @@ Endpoint used by moderators to send levels to RobTop
 
 **accountID** - accountID of the user
 
-**gjp** - The [GJP](/topics/encryption/gjp.md) of the user
+**gjp** - The [GJP](/topics/gjp.md) of the user
 
 **levelID** - the ID of the level
 

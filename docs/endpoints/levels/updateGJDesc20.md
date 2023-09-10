@@ -8,7 +8,7 @@ Updates the description of a level
 
 **accountID** - The account ID of the level's author
 
-**gjp** - The [GJP](/topics/encryption/gjp.md) of the level's author
+**gjp** - The [GJP](/topics/gjp.md) of the level's author
 
 **levelID** - The ID of the level
 

@@ -8,7 +8,7 @@ Fetches the leaderboard for a level and submits your level stats to the server
 
 **accountID** - The user's account ID
 
-**gjp** - The user's [GJP](/topics/encryption/gjp.md)
+**gjp** - The user's [GJP](/topics/gjp.md)
 
 **levelID** - The ID of the level
 

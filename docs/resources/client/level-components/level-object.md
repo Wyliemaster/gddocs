@@ -4,7 +4,7 @@
 A level object is an object within a Geometry Dash level, containing data about its behavior.
 
 ### Object String
-The object string is contained within the [inner level string](). It is formatted as follows:
+The object string is contained within the [inner level string](/resources/client/level-components/inner-level-string.md). It is formatted as follows:
 
 `{object};{object};{object};...`, where `object` is formatted as:
 
@@ -73,7 +73,7 @@ Property keys reflect the keys found in the following table, whereas property va
 | 28  | Offset X                             | **integer**                                     | the Offset X property of the Move trigger                                          |
 | 29  | Offset Y                             | **integer**                                     | the Offset Y property of the Move trigger                                          |
 | 30  | Easing                               | **[Easing](enumerations.md)**                   | the Easing type of the effect of a trigger                                         |
-| 31  | Text                                 | **string**                                      | the text of the text object in [base64]()                                          |
+| 31  | Text                                 | **string**                                      | the text of the text object in [base64](/topics/encryption/base64.md)                                          |
 | 32  | Scaling                              | **float**                                       | the scaling of the object                                                          |
 | 33  | Single Group ID                      | **integer**                                     | a group ID given to the object                                                      |
 | 34  | Group Parent                         | **bool**                                        | the Group Parent property of the object                                            |

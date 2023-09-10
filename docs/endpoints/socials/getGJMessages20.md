@@ -8,7 +8,7 @@ Gets a user's DMs.
 
 **accountID** - The user's account ID
 
-**gjp** - The user's [GJP](/topics/encryption/gjp.md)
+**gjp** - The user's [GJP](/topics/gjp.md)
 
 **secret** - Wmfd2893gb7
 

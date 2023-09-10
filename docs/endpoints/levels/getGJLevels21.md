@@ -13,7 +13,7 @@
 | `str`             | Search query, user ID or level list depending on `type`                                                       | Only on types 5 and 10                |
 | `page`            | Which page to request, defaults to 0                                                                          |                                       |
 | `total`           | Currently unknown. Defaults to the amount of levels available up to 9999, but 0 or leaving it out also work.  |                                       |
-| `gjp`             | The [GJP](/topics/Algorithms/robtop-cipher.md) for the `accountID`                                            |                                       |
+| `gjp`             | The [GJP](/topics/gjp.md) for the `accountID`                                            |                                       |
 | `accountID`       | The ID for the account which is doing the search. Only sent on types 8, 13 and 5                              |                                       |
 | `gdw`             | Whether the request is for GD World, either 0 or 1                                                            |                                       |
 | `gauntlet`        | The ID for the gauntlet being requested                                                                       |                                       |
@@ -77,7 +77,7 @@
 
 </details>
 
-<details id="demonFilter">
+<details id="demonfilter">
     <summary><code>demonFilter</code></summary>
 
 | demonFilter | Description   |
@@ -113,9 +113,9 @@ levels#creators#songs#page info#hash
 
 where:
 
-- `levels` is a list of [Level Objects](#) separated by `|`
+- `levels` is a list of [Level Objects](/resources/server/level.md) separated by `|`
 - `creators` is a list of creators separated by `|`, each in the format `userID:username:accountID`
-- `songs` is a list of [Song Objects](#) separated by `~:~`
+- `songs` is a list of [Song Objects](/resources/server/song.md) separated by `~:~`
 - `page info` is in the format `total:offset:amount` where:
   - `total` - total number of levels for the query
   - `offset` - offset from which the current page starts

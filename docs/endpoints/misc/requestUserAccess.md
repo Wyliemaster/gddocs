@@ -8,7 +8,7 @@ Requests moderator access
 
 **accountID** - The accountID of the user requesting mod access
 
-**gjp** - The [GJP](/topics/encryption/gjp.md) of the user requesting mod access
+**gjp** - The [GJP](/topics/gjp.md) of the user requesting mod access
 
 **secret** - Wmfd2893gb7
 

@@ -8,7 +8,7 @@ Updates a user's data
 
 **accountID** - Account ID of the user updating their profile
 
-**gjp** - The [GJP](/topics/encryption/gjp.md) of the user updating their profile
+**gjp** - The [GJP](/topics/gjp.md) of the user updating their profile
 
 **stars** - The amount of stars the user has
 

@@ -1,7 +1,7 @@
 # Client Guideline String Resource
 
 ## Guideline String
-The guideline string is the linearized string format of the guidelines of a level. It is contained within the [inner level string](inner-level-string.md). It is formatted as follows:
+The guideline string is the linearized string format of the guidelines of a level. It is contained within the [inner level string](/resources/client/level-components/inner-level-string.md). It is formatted as follows:
 
 `{guideline}~{guideline}~{guideline}~...`, where `guideline` is formatted as:
 

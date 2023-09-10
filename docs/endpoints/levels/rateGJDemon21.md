@@ -14,7 +14,7 @@ Rates the demon difficulty of a demon level - only works for Geometry Dash moder
 
 **accountID** - The accountID of the user who's rating the demon's difficulty
 
-**gjp** - The [GJP](/topics/encryption/gjp.md) of the user who's rating the demon's difficulty
+**gjp** - The [GJP](/topics/gjp.md) of the user who's rating the demon's difficulty
 
 **levelID** - The ID of the demon being rated
 

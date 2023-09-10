@@ -22,7 +22,7 @@ Gets a user's quests.
 
 **accountID** - Account ID of the user
 
-**gjp** - The user's [GJP](/topics/encryption/gjp.md)
+**gjp** - The user's [GJP](/topics/gjp.md)
 
 **uuid** - Seemingly a random number also used for identifying someone
 

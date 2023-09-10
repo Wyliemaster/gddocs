@@ -22,7 +22,7 @@ Likes a level, comment, etc.
 
 **accountID** - The liking/disliking person's account ID
 
-**gjp** - The liking/disliking person's [GJP](/topics/encryption/gjp.md)
+**gjp** - The liking/disliking person's [GJP](/topics/gjp.md)
 
 **udid** - The liking/disliking person's [udid](/topics/encryption/id?id=udid)
 

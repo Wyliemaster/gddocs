@@ -8,7 +8,7 @@ Uploads a comment to a user level.
 
 **accountID** - The commenter's account ID
 
-**gjp** - The commenter's [GJP](/topics/encryption/gjp.md)
+**gjp** - The commenter's [GJP](/topics/gjp.md)
 
 **userName** - The commenter's username
 
