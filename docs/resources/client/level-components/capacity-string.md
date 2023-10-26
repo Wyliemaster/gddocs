@@ -98,7 +98,7 @@ There are other types of Capacity Strings from older versions of the game. The t
 The capacity string in 2.0 is quite easy to understand as it only contains the first 16 batch nodes in 2.1's capacity string. 1.9 is quite different with certain indexes containing multiple batch nodes.
  
 > **Below is a table for 1.9's Capacity String.**  
-> Refer to the [Structure](/resources/client/level-components/capacity-string?id=structure) section for the properties of the batchNodes
+> Refer to the [Structure](/resources/client/level-components/capacity-string.md?id=structure) section for the properties of the batchNodes
 
 | Index | BatchNode(s) |
 |:------|:-------------|
