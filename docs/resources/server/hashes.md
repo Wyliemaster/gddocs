@@ -1,0 +1,26 @@
+# Hashes
+## getGJLevels21
+```py
+import dataclasses, hashlib
+
+@dataclasses.dataclass
+class Level:
+    id: int
+    stars: int
+    verified_coins: bool
+
+def generate_getGJLevels21_hash(levels) -> str:
+    hasher = hashlib.sha1()
+    level: Level
+    for level in levels:
+        # %letter meanings: https://peps.python.org/pep-0461/#interpolation
+        decimal_id: bytes = b"%d" % (level.id,)
+        hasher.update(b"%c%c%d%c" % (
+            decimal_id[0],
+            decimal_id[-1],
+            level.stars,
+            b"1" if level.verified_coins else b"0"
+        ))
+    hasher.update(b"xI25fpAapCQg")
+    return hasher.hexdigest()
+```
