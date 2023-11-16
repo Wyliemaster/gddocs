@@ -113,14 +113,14 @@ levels#creators#songs#page info#hash
 
 where:
 
-- `levels` is a list of [Level Objects](#) separated by `|`
+- `levels` is a list of [Level Objects](/resources/server/level.md) separated by `|`
 - `creators` is a list of creators separated by `|`, each in the format `userID:username:accountID`
-- `songs` is a list of [Song Objects](#) separated by `~:~`
+- `songs` is a list of [Song Objects](/resources/server/song.md) separated by `~:~`
 - `page info` is in the format `total:offset:amount` where:
   - `total` - total number of levels for the query
   - `offset` - offset from which the current page starts
   - `amount` - number of levels per page (always 10 for the gd servers)
-- `hash` is a hash of every level, see [Hashes](#)
+- `hash` is a hash of every level, see [Hashes](/resources/server/hashes.md)
 <!-- should the hash be explained here or on its own page like how the old docs had a page for CHK -->
 
 If the request is not successful, it will return `-1`
