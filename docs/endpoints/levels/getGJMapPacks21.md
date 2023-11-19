@@ -26,7 +26,7 @@ map packs#page info#hash
 
 where:
 
-- `map packs` is a list of [map pack](/resources/server/mappack.md) objects, separated by `|`
+- `map packs` is a list of [map pack objects](/resources/server/mappack.md), separated by `|`
 - `page info` is in the format `total:offset:amount` where:
   - `total` - total number of map packs for the query
   - `offset` - offset from which the current page starts
