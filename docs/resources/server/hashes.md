@@ -70,3 +70,39 @@ def generate_getGJGauntlets21_hash(gauntlets) -> str:
     hasher.update(b"xI25fpAapCQg")
     return hasher.hexdigest()
 ```
+## downloadGJLevel22
+```py
+import dataclasses, hashlib
+
+@dataclasses.dataclass
+class Level:
+    id: int
+    encoded_level_data: bytes
+    player_id: int
+    demon: bool
+    stars: int
+    feature_score: int
+    password: int # <- like k41 in save files
+    verified_coins: bool
+    daily_number: int
+
+def generate_downloadGJLevel22_hash1(level: Level) -> str:
+    d: bytes = level.encoded_level_data
+    return hashlib.sha1(
+        (d[: len(d)//40*40 : len(d)//40] if len(d) > 40 else d)
+        + b"xI25fpAapCQg"
+    ).hexdigest()
+
+def generate_downloadGJLevel22_hash2(level: Level) -> str:
+    # %letter meanings: https://peps.python.org/pep-0461/#interpolation
+    return hashlib.sha1(b"%d,%d,%c,%d,%c,%d,%d,%dxI25fpAapCQg" % (
+        level.player_id,
+        level.stars,
+        b"1" if level.demon else b"0",
+        level.id,
+        b"1" if level.verified_coins else b"0",
+        level.feature_score,
+        level.password,
+        level.daily_number
+    )).hexdigest()
+```
