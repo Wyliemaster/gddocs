@@ -49,3 +49,24 @@ def generate_getGJMapPacks21_hash(map_packs) -> str:
     hasher.update(b"xI25fpAapCQg")
     return hasher.hexdigest()
 ```
+## getGJGauntlets21
+```py
+import dataclasses, hashlib
+
+@dataclasses.dataclass
+class Gauntlet:
+    id: int
+    level_ids: tuple[int, ...]
+
+def generate_getGJGauntlets21_hash(gauntlets) -> str:
+    hasher = hashlib.sha1()
+    gauntlet: Gauntlet
+    for gauntlet in gauntlets:
+        # %letter meanings: https://peps.python.org/pep-0461/#interpolation
+        hasher.update(b"%d%b" % (
+            gauntlet.id,
+            b",".join(b"%d" % (level_id,) for level_id in gauntlet.level_ids)
+        ))
+    hasher.update(b"xI25fpAapCQg")
+    return hasher.hexdigest()
+```

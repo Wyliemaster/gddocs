@@ -20,7 +20,14 @@ Gets the gauntlet levels.
 
 ## Response
 
-A list of [gauntlet objects](/resources/server/gauntlet.md), separated by a pipe `|`.
+```
+gauntlets#hash
+```
+
+where:
+
+- `gauntlets` list of [gauntlet objects](/resources/server/gauntlet.md), separated by `|`
+- `hash` is a hash of every gauntlet, see [Hashes](/resources/server/hashes.md)
 
 ## Example
 
