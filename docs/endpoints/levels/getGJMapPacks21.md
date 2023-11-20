@@ -53,7 +53,7 @@ data = {
     "page": 4
 }
 
-req = requests.post("http://boomlings.com/database/getGJMapPacks21.php", data=data, headers=headers)
+req = requests.post("http://www.boomlings.com/database/getGJMapPacks21.php", data=data, headers=headers)
 print(req.text)
 ```
 
