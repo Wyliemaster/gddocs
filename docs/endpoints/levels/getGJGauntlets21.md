@@ -26,7 +26,7 @@ gauntlets#hash
 
 where:
 
-- `gauntlets` list of [gauntlet objects](/resources/server/gauntlet.md), separated by `|`
+- `gauntlets` is a list of [gauntlet objects](/resources/server/gauntlet.md), separated by `|`
 - `hash` is a hash of every gauntlet, see [Hashes](/resources/server/hashes.md)
 
 ## Example
