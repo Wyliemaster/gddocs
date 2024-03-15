@@ -21,7 +21,7 @@ Events over the Geometry Dash servers usually send an error code denoting that t
 | `-3` | Email is in use | If an account with that already email exists |
 | `-4` | Username is invalid | If the username is invalid |
 | `-5` | Password is invalid | If the password is invalid |
-| `-6` | Email is invalid | If the email is invalid |
+| `-6` | Email is invalid | If the email is invalid or email sevice was blacklisted by Robtop |
 | `-7` | Passwords do not match | If the passwords don't match |
 | `-8` | Too short. Minimum 6 characters | If the password is less than 6 characters long |
 | `-9` | Too short. Minimum 3 characters | If the name is less than 3 characters long |
