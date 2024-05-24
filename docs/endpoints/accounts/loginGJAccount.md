@@ -6,7 +6,7 @@
 
 | Parameter  | Explanation                                                                                           | Optional |
 | :--------- | :---------------------------------------------------------------------------------------------------- | :------- |
-| `udid`     | This isn't UDID but its [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) instead.  | `False`  |
+| `udid`     | Funny enough, This isn't actually UDID but its [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) instead.  | `False`  |
 | `userName` | The username for the account the player is trying to log into                                         | `False`  |
 | `password` | The plaintext password for the account the player is trying to log into                               | `False`  |
 | `sID`      | The player's steam ID                                                                                 | `True`   |
