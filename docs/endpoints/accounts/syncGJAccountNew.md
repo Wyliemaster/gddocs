@@ -1,16 +1,14 @@
 # accounts/syncGJAccountNew.php
 
-Loads account data
-
-**Note:** This page is on the account server. You can find the domain name by sending a request to /database/getAccountURL.php (currently http://www.robtopgames.org) 
+> This endpoint is used to load data.
 
 ## Parameters
 
 ### Required Parameters
 
-**accountID** - The account ID of the account to be added
+**userName** - The username of the account to load data from.
 
-**gjp2** - The password of the account to be added with [GJP2](/topics/gjp.md) encryption
+**password** - The password in plaintext to load data from.
 
 **secret** - Wmfv3899gc9
 
@@ -45,13 +43,17 @@ A list of values, separated by semicolons `;`:
 ```py
 import requests
 
+headers = {
+    "User-Agent": ""
+}
+
 data = {
-    "accountID": 23590959, # This would be APIAccount's account ID
-    "gjp2": "********", # This would be APIAccount's password with GJP2 encryption
+    "userName": "APIAccount", # This would be APIAccount's username
+    "password": "********", # This would be APIAccount's password (in plaintext)
     "secret": "Wmfv3899gc9"
 }
 
-req = requests.post("http://www.robtopgames.org/database/accounts/syncGJAccountNew.php", data=data)
+req = requests.post("http://www.boomlings.com/database/accounts/syncGJAccountNew.php", data=data, headers=headers)
 print(req.text)
 ```
 
