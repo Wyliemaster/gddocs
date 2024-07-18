@@ -47,4 +47,4 @@ This enum represents the game window's resolution.
 
 ## Icons
 
-The various icon & color IDs are in the same order as they show up in the icon kit: for instance, the top left cube of the first page is ID `1`, the one right to it is `2`, and so on.
+The various icon & color IDs are in the same order as they show up in the icon kit: for instance, the top left cube of the first page is ID `1`, the one to the right of it is `2`, and so on.
