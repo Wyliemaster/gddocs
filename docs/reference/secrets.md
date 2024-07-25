@@ -1,6 +1,6 @@
 # Secrets
 
-> Secrets are 11 character strings used to validate if requests to the server were from a Geometry Dash client. Rather than generating a new secret for each request sent to the server, RobTop opted with hardcoing these secrets and slightly obfuscating them instead to stop people finding them. 
+> Secrets are 11 character strings used to validate if requests to the server were from a Geometry Dash client. Rather than generating a new secret for each request sent to the server, RobTop opted with hardcoding these secrets and slightly obfuscating them instead to stop people finding them. 
 
 - **Below is a table showing all known secrets**
 
