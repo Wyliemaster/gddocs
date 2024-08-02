@@ -37,6 +37,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0032 | forceTimerEnabled -> seems to be unused |
 | gv_0033 | ChangeSongPath |
 | gv_0034 | GameCenterEnabled |
+| gv_0035 | smallEditorStep (exists only in 1.9 (2015-01-20) |
 | gv_0036 | PreviewMode (editor) |
 | gv_0037| showGround (editor) |
 | gv_0038 | showGrid (editor) |
@@ -212,7 +213,6 @@ Unlocked Game Variables (ugv) are used to check if ingame events have been compl
 | 0017  | **False** | |
 | 0020  | **False** | |
 | 0021  | **False** | |
-| 0035  | **False** | |
 | 0054  | **False** ||
 | 0080  | **False** ||
 | 0085  | **False** ||
