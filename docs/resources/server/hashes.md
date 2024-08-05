@@ -12,7 +12,6 @@ For each level, add these segments:
 - The last digit of the level ID
 - The stars the level awards
 - The amount of coins in the level
-- 0 if the level has unverified coins, 1 if verified
 
 Salt: `xI25fpAapCQg`
 
