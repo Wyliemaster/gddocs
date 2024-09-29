@@ -36,7 +36,7 @@ Uploads a created level to the servers.
 
 ### Optional Parameters
 
-**binaryVersion** - Currently 42 as of 2.206
+**binaryVersion** - Currently 42
 
 ## Response
 

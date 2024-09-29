@@ -29,7 +29,7 @@ One thing to be mindful about is the number of requests you send at a given time
 However, there are some longer-term limits applied on top of that as well.
 
 ## **Alternative Method**
-> As of May 31st, 2023. An alternative method is using IPv6 to interact with the servers
+> As of May 31st, 2023, an alternative method is using IPv6 to interact with the servers
 
 ```py
 #>curl http://[2600:3c03::f03c:91ff:fe69:863b]/database/getGJLevels21.php -X POST -d secret=Wmfd2893gb7
