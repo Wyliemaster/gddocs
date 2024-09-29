@@ -175,26 +175,11 @@ The following features are discovered in current local save files, however their
 ***Potentially Discarded Features***
 
 The following key ranges are potentially discarded features, whose appearance in earlier versions of the game is unknown and untested.
-<table>
-  <tr>
-    <th>Key Start</th>
-    <th>Key End</th>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">18</td>
-  </tr>
-  <tr>
-    <td align="center">26</td>
-    <td align="center">27</td>
-  </tr>
-  <tr>
-    <td align="center">37</td>
-    <td align="center">40</td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">53</td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">83</td>
-  </tr>
-</table>
+
+| Key(s) |
+|:------:|
+| 18     |
+| 26-27  |
+| 37-40  |
+| 53     |
+| 83     |
