@@ -1,6 +1,6 @@
 # deleteGJAccComment20.php
 
-
+Deletes a profile post.
 
 ## Parameters
 
@@ -14,6 +14,8 @@
 
 **secret** - Wmfd2893gb7
 
+**targetAccountID** - Account ID the user who posted the profile post
+
 ### Optional Parameters
 
 **gameVersion** - 21
@@ -21,6 +23,8 @@
 **binaryVersion** - 35
 
 **gdw** - 0
+
+**cType** - 0 for level, 1 for user. Always 1 here
 
 ## Response
 
@@ -41,7 +45,8 @@ data = {
     "accountID": 173831, # DevExit's account ID
     "gjp": "********", # This would be DevExit's password encoded with GJP encryption
     "commentID": 1772717,
-    "secret": "Wmfd2893gb7"
+    "secret": "Wmfd2893gb7",
+    "targetAccountID": 173831,
 }
 
 r = requests.post('http://boomlings.com/database/deleteGJAccComment20.php', data=data)
