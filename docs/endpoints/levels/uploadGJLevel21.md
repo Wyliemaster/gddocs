@@ -34,7 +34,7 @@ Uploads a created level to the servers.
 
 **twoPlayer** - Set to 1 if the level utilizes two player mode
 
-**songID** - The ID of the custom Newgrounds song used in the level. Set to 0 if an official song is used
+**songID** - The ID of the custom song used in the level. Set to 0 if an official song is used
 
 **objects** - The number of objects in the level
 
@@ -45,6 +45,12 @@ Uploads a created level to the servers.
 **unlisted** - Set to 2 if the level should be unlisted and to 1 if the level should be only viewable by friends
 
 **ldm** - Set to 1 if the level should have a low detail checkbox
+
+**ts** - The number of ticks (240 TPS) it took you to verify the level (Platformer-only)
+
+**songIDs** - The IDs of the custom songs used in the level, separated by commas
+
+**sfxIDs** - The IDs of the sound effects used in the level, separated by commas
 
 **levelString** - The actual level data. Must be gzip compressed and then converted to [URL-safe base64](./topics/encryption/base64.md)
 
