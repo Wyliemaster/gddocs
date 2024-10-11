@@ -6,25 +6,11 @@ Uploads a created level to the servers.
 
 ### Required Parameters
 
-**gameVersion** - The game version. Currently 22
-
 **accountID** - The uploader's account ID
 
 **gjp2** - The uploader's [GJP2](./topics/encryption/gjp.md)
 
-**listID** - The ID of the list if updating to a newer version, otherwise 0
-
 **listName** - The name of the list, in plain text
-
-**listDesc** - The description of the list, in [URL-safe base64](./topics/encryption/base64.md)
-
-**listVersion** - The version number of the level
-
-**original** - The ID of the original list if the list was copied, otherwise 0
-
-**difficulty** - The list's difficulty face. -1 is N/A, and then it's 0-10 where 0 is Auto and 10 is Extreme Demon 
-
-**unlisted** - Set to 2 if the list should be unlisted, and to 1 if the list should be unlisted and only viewable by friends
 
 **listLevels** - All level IDs included in the list. Each ID is separated by `,`
 
@@ -36,11 +22,41 @@ Uploads a created level to the servers.
 
 ### Optional Parameters
 
+**gameVersion** - The game version. Currently 22
+
 **binaryVersion** - Currently 42 as of 2.206
+
+**listDesc** - The description of the list, in [URL-safe base64](./topics/encryption/base64.md)
+
+**difficulty** - The list's difficulty face. -1 is N/A, and then it's 0-10 where 0 is Auto and 10 is Extreme Demon. If unspecified, defaults to Auto.
+
+**listID** - The ID of the list if updating to a newer version, otherwise 0
+
+**unlisted** - Set to 2 if the list should be unlisted, and to 1 if the list should be unlisted and only viewable by friends
+
+**listVersion** - The version number of the list. Seems to be always 0
+
+**original** - Unsure why this is a thing. Seems to be always 0
 
 ## Response
 
-Returns the ID of the uploaded list, or `-1` if the request was rejected.
+Returns the ID of the uploaded list, or one of a few error codes if the request was rejected:
+
+`-4` - invalid list name
+
+`-5` - missing list name
+
+`-6` - invalid/missing level list
+
+`-9` - missing/invalid account ID
+
+`-10` - incorrect/missing seed value
+
+`-11` - incorrect/missing password
+
+`-12` - ratelimit
+
+`-100` - incorrect/missing secret
 
 ## Example
 
