@@ -24,14 +24,13 @@
 
 ### **<u>Common Secret</u>**
 
-> As of Geometry Dash 2.206, there are <u>44</u> endpoints on the server which use the `Common Secret`. Below is a table of all known endpoints which use the Common Secret.
+> As of Geometry Dash 2.206, there are <u>43</u> endpoints on the server which use the `Common Secret`. Below is a table of all known endpoints which use the Common Secret.
 
 <details close>
 <summary><u>Endpoints</u></summary>
 
 <table>
     <tr><th><center>Endpoint</center></th></tr>
-      <tr><td><a href="/#/endpoints/account/getAccountURL">https://www.boomlings.com/database/getAccountURL.php</a></td></tr>
       <tr><td><a href="/#/endpoints/social/acceptGJFriendRequest20">https://www.boomlings.com/database/acceptGJFriendRequest20.php</a></td></tr>  
       <tr><td><a href="/#/endpoints/social/blockGJUser20">https://www.boomlings.com/database/blockGJUser20.php</a></td></tr>
       <tr><td><a href="/#/endpoints/comment/deleteGJAccComment20">https://www.boomlings.com/database/deleteGJAccComment20.php</a></td></tr>        
@@ -81,7 +80,7 @@
 </details>  
 
 **<h3><u>Account Secret</u></h3>**  
-> As of Geometry Dash 2.206, there are 5 endpoints which use the `Account Secret`. The Account Secret was created for endpoints that deal with <u>important account features such as save data and privacy settings</u>. However, some unused code in 2.2 also reveals that the secret could be used for the upcoming multiplayer mode, however this is subject to change. Below is a table of each endpoint which uses the Account Secret.
+> As of Geometry Dash 2.206, there are 6 endpoints which use the `Account Secret`. The Account Secret was created for endpoints that deal with <u>important account features such as save data and privacy settings</u>. However, some unused code in 2.2 also reveals that the secret could be used for the upcoming multiplayer mode, however this is subject to change. Below is a table of each endpoint which uses the Account Secret.
 
 <details close>
 <summary><u>Endpoints</u></summary>
@@ -93,6 +92,7 @@
     <tr><td><a href="/#/endpoints/account/syncGJAccountNew">http://geometrydash.com/database/accounts/syncGJAccountNew.php</a></td></tr>        
     <tr><td><a href="/#/endpoints/account/backupGJAccountNew">http://geometrydash.com/database/accounts/backupGJAccountNew.php</a></td></tr>    
     <tr><td><a href="/#/endpoints/account/updateGJAccSettings20">http://www.boomlings.com/database/updateGJAccSettings20.php</a></td></tr>    
+    <tr><td><a href="/#/endpoints/account/getAccountURL">https://www.boomlings.com/database/getAccountURL.php</a></td></tr>
 </table>
 
 </details>
