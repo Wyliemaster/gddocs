@@ -1,6 +1,6 @@
 # ReadFriendRequests
 
-> This endpoint is used to read friend requests recieved from other players
+> This endpoint is used to mark friend requests recieved from other players as read
 
 ## Parameters
 
