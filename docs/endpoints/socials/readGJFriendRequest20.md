@@ -1,4 +1,4 @@
-# ReadFriendRequests
+# readGJFriendRequests20
 
 > This endpoint is used to mark friend requests recieved from other players as read
 
