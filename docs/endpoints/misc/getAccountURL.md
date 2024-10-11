@@ -10,11 +10,11 @@ Gets the URL for the data server.
 
 **type** - used to decide which endpoint is used after the data server is found - 1 = backup data/ 2 = sync data
 
-**secret** - Wmfd2893gb7
+**secret** - Wmfv3899gc9
 
 ## Response
 
-Usually [https://www.robtopgames.org](https://www.robtopgames.org). However, without a valid accountID and at type 2, [https://www.robtopgames.net](https://www.robtopgames.net) is returned instead
+Usually [https://www.robtopgames.org](https://www.robtopgames.org). However, if type 2 is specified and either the secret or account ID is invalid, [https://www.robtopgames.net](https://www.robtopgames.net) is returned instead
 
 ## Example
 
