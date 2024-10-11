@@ -210,6 +210,7 @@ For example, `0%` - `13%` - `100%` -> `(13 - 0), (100 - 13)` -> `13,87`
 - TimelyID
 - Salt (`yPg6pUrtWn0J`)
 - [RS](topics/encryption/id.md?id=rs)
+
 Yes, this is the only CHK where a parameter (RS) comes after the salt.
 
 ## Upload Multiplayer Comment
