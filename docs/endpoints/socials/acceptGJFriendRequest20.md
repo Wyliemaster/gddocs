@@ -1,4 +1,4 @@
-# Accepting Friend Requests
+# acceptGJFriendRequest20
 
 > This endpoint is used to accept friend requests recieved from other users
 
