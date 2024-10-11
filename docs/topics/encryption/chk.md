@@ -204,8 +204,7 @@ def generatePlatformerHash(bestTime, bestPoints):
 
 For example, `0%` - `13%` - `100%` -> `(13 - 0), (100 - 13)` -> `13,87`
 
-- Unknown (always 1)
-
+- Some sort of cheat detection. Set this value to 1
 - Coins
 - TimelyID
 - Salt (`yPg6pUrtWn0J`)
