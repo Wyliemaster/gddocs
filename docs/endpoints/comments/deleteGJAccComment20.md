@@ -8,7 +8,7 @@ Deletes a profile post.
 
 **accountID** - Account ID of the user deleting the comment
 
-**gjp** - The [GJP](/topics/encryption/gjp.md) of the user deleting the comment
+**gjp2** - The [GJP2](/topics/encryption/gjp.md) of the user deleting the comment
 
 **commentID** - The ID of the comment being deleted (Returned by [uploadGJAccComment20](/endpoints/uploadGJAccComment20.md))
 
@@ -18,9 +18,9 @@ Deletes a profile post.
 
 ### Optional Parameters
 
-**gameVersion** - 21
+**gameVersion** - 22
 
-**binaryVersion** - 35
+**binaryVersion** - 42
 
 **gdw** - 0
 
