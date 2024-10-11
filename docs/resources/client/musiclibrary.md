@@ -32,7 +32,9 @@ Here is an example of an artist:
 
 This is where the old (2.205-) and new (2.206+) music libraries diverge. In both libraries, the songs are separated with `;`. However, the new music library has each song in this format:
 
-`{id},{name},{artistID},{filesize},{duration},{tags},{musicPlatform},{extraArtists},{externalLink},{newButton},{priorityOrder},{songNumber}`
+```
+{id},{name},{artistID},{filesize},{duration},{tags},{musicPlatform},{extraArtists},{externalLink},{newButton},{priorityOrder},{songNumber}
+```
 
 Meanwhile the old music library has each song in this format:
 
