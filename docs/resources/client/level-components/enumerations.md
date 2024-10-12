@@ -93,4 +93,10 @@ Here you will find the enumerations that are related to the level string.
 | 1    | Larger     | 
 | 2    | Smaller    | 
 
+## Target Pos Coordinates
 
+| Key  | Name       |
+|:-----|:-----------|
+| 0    | Both       | 
+| 1    | X Only     | 
+| 2    | Y Only     | 
