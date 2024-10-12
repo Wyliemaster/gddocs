@@ -14,7 +14,7 @@ Uploads a created level to the servers.
 
 **listLevels** - All level IDs included in the list. Each ID is separated by `,`
 
-**seed** - A mandatory [chk value](./topics/encryption/chk.md) generated from the first 50 characters of the listLevels parameter, followed by the accountID. TODO!!!
+**seed** - A mandatory [chk value](./topics/encryption/chk.md) generated from the first 50 characters of the listLevels parameter, followed by the accountID.
 
 **seed2** - 5 randomly generated characters from \[A-Za-z0-9]
 
