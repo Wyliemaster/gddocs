@@ -112,6 +112,7 @@
   - [getGJChallenges](/endpoints/rewards/getGJChallenges.md)
   - [getGJRewards](/endpoints/rewards/getGJRewards.md)
 **Songs**
+  - [getCustomContentURL](/endpoints/songs/getCustomContentURL.md)
   - [getGJSongInfo](/endpoints/songs/getGJSongInfo.md)
   - [getGJTopArtists](/endpoints/songs/getGJTopArtists.md)
   - [testSong](/endpoints/songs/testSong.md)
