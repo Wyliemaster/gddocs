@@ -25,6 +25,20 @@ Here you will find the enumerations that are related to the level string.
 | 3    | 3x     | 468.00                    |
 | 4    | 4x     | 576.00                    |
 
+## Z Layer
+
+| Key  | Name |
+|:-----|:-----|
+| -5   | B5   |
+| -3   | B4   |
+| -1   | B3   |
+| 1    | B2   |
+| 3    | B1   |
+| 5    | T1   |
+| 7    | T2   |
+| 9    | T3   |
+| 11   | T4   |
+
 ## Easing
 
 | Key  | Name                |
