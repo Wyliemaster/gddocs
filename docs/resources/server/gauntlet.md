@@ -84,6 +84,8 @@ Note: Bolded gauntlet names are the ones that are added in-game, and the rest ar
   | 48| **Universe**|
   | 49| **Discord**|
   | 50| **Split**|
+  | 51| **NCS I**|
+  | 52| **NCS II**|
 ### Trivia
 
 - Gauntlets use the same response parser as [MapPacks](/resources/server/mappack) but they do not share the full range of features mappacks have
