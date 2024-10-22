@@ -20,7 +20,7 @@ Updates a user's data
 
 **icon** - Which icon the iconType has selected, for example if iconType is 0 (cube), then it's the selected cube
 
-**iconType** - Which gamemode the player has last selected when changing their icons, 0 for cube, 1 for ship, 2 for ball, 3 for ufo, 4 for wave, 5 for robot, 6 for spider
+**iconType** - Which gamemode the player has last selected when changing their icons, 0 for cube, 1 for ship, 2 for ball, 3 for ufo, 4 for wave, 5 for robot, 6 for spider, 7 for swing, 8 for jetpack
 
 **coins** - The amount of secret coins the user has
 
