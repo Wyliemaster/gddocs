@@ -12,7 +12,7 @@ Deletes a list from the server.
   
 **uuid** - The list author's UUID
 
-**gjp2** - The level author's [GJP2](/topics/encryption/gjp.md)
+**gjp2** - The level author's [GJP2](/topics/gjp.md)
 
 **listID** - The ID of the level being deleted
 

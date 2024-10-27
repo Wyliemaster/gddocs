@@ -8,17 +8,17 @@ Sends a star suggestion for a level
 
 **secret** - Wmfd2893gb7
 
-**levelID** - The ID of the level receiving the star suggestion
+**levelID** - The ID of the level receiving the star suggestion.
 
-**stars** - The amount of stars being suggested
+**stars** - The amount of stars being suggested.
 
-**rs** - 10 randomly generated characters from `[A-Za-z0-9]`
+**rs** - [Random seed](/topics/encryption/id.md) generated.
 
 **accountID** - Your account ID
 
 **gjp2** - Your password, encrypted with [GJP2](/topics/gjp.md)
 
-**udid** - Your UDID
+**udid** - Your [UDID](/topics/encryption/id.md).
 
 **uuid** - Your player ID (different from account ID)
 
@@ -34,7 +34,7 @@ Sends a star suggestion for a level
 
 ## Response
 
-Always 1 if the parameters `secret`, `levelID` and `stars` are specified. `chk`, `udid`, `uuid`, `rs`, `accountID` and `gjp2` are technically not required but the star rating will not go through if these parameters aren't specified
+Always `1` if the parameters `secret`, `levelID` and `stars` are specified. `chk`, `udid`, `uuid`, `rs`, `accountID` and `gjp2` are technically not required but the star rating will not go through if these parameters aren't specified.
 
 ## Example
 
@@ -56,7 +56,7 @@ print(req.text)
 ```
 
 **Response**
-```py
+```plain
 1
 ```
 

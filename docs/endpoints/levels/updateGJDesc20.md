@@ -6,13 +6,13 @@ Updates the description of a level
 
 ### Required Parameters
 
-**accountID** - The account ID of the level's author
+**accountID** - The account ID of the level's author.
 
-**gjp2** - The [GJP2](/topics/encryption/gjp.md) of the level's author
+**gjp2** - The [GJP2](/topics/gjp.md) of the level's author.
 
 **levelID** - The ID of the level
 
-**levelDesc** - The new description of the level, converted to [URL-safe base64](/topics/encryption/base64)
+**levelDesc** - The new description of the level, converted to [URL-safe base64](/topics/encryption/base64.md)
 
 **secret** - Wmfd2893gb7
 
@@ -26,7 +26,7 @@ Updates the description of a level
 
 ## Response
 
-1 if successful, -1 if not
+`1` if successful, `-1` if not.
 
 ## Example
 
@@ -50,7 +50,7 @@ print(req.text)
 ```
 
 **Response**
-```py
+```plain
 1
 ```
 

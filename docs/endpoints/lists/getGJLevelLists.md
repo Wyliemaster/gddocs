@@ -12,7 +12,7 @@
 | `type`            | Search type, [see values](#type). Defaults to most liked                                                      |                                       |
 | `str`             | Search query, user ID or level list depending on `type`                                                       | Only on types 5 and 10                |
 | `page`            | Which page to request, defaults to 0                                                                          |                                       |
-| `gjp2`            | The [GJP2](/topics/encryption/gjp.md) for the `accountID`.                                                    |                                       |
+| `gjp2`            | The password for the accout encrypted in [GJP2](/topics/gjp.md).                                           |                                       |
 | `accountID`       | The ID for the account which is doing the search. Only sent on types 8, 13 and 5                              |                                       |
 | `diff`            | Difficulty filter, [see values](#diff)                                                                        |                                       |
 | `demonFilter`     | Selects which demon difficulty to search, [see values](#demonFilter). If not sent will search all demon types |                                       |

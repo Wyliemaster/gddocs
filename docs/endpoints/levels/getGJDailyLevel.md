@@ -44,8 +44,14 @@ req = requests.post("http://boomlings.com/database/getGJDailyLevel.php", data=da
 print(req.text)
 ```
 
+### **curl**
+
+```bash
+curl http://boomlings.com/database/getGJDailyLevel.php -A "" -d "weekly=1&secret=Wmfd2893gb7"
+```
+
 **Response**
-```py
+```plain
 100146|121576
 ```
 

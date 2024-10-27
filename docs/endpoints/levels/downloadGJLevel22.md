@@ -73,7 +73,7 @@ print(req.text)
 
 ### **curl**
 
-```plain
+```bash
 curl http://www.boomlings.com/database/downloadGJLevel22.php -A "" -d "levelID=128&secret=Wmfd2893gb7"
 ```
 

@@ -1,6 +1,6 @@
 # reportGJLevel.php
 
-Reports a level
+> Reports a level.
 
 ## Parameters
 
@@ -10,11 +10,11 @@ Reports a level
 
 ### Optional Parameters
 
-**levelID** - The ID of the level being reported
+**levelID** - The ID of the level being reported.
 
 ## Response
 
-1 if a secret is passed, even if no levelID is passed, and -1 otherwise
+`1` if a secret is passed, even if no levelID is passed, and `-1` otherwise.
 
 ## Example
 
@@ -35,7 +35,7 @@ print(req.text)
 ```
 
 **Response**
-```py
+```plain
 1
 ```
 
