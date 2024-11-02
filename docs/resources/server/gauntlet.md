@@ -31,7 +31,9 @@ A list of all known keys can be found in the table below
 Here is a table which shows which `gauntletID` corresponds to a specific gauntlet
 
 <!-- table made with a json to mdtable script so it looks ugky :/-->
-Note: Bolded gauntlet names are the ones that are added in-game, and the rest are yet to be added
+Note: Bolded gauntlet names are the ones that are added in-game, and the rest are yet to be added.
+
+Note 2: Gauntlets that has been marked `*` appears only when `binaryVersion` is set to `42` (2.206)
 
 | ID ⠀| Name |
 |:---|:-----|
@@ -84,6 +86,8 @@ Note: Bolded gauntlet names are the ones that are added in-game, and the rest ar
   | 48| **Universe**|
   | 49| **Discord**|
   | 50| **Split**|
+  | 51*| **NCS I**|
+  | 52*| **NCS II**|
 ### Trivia
 
 - Gauntlets use the same response parser as [MapPacks](/resources/server/mappack) but they do not share the full range of features mappacks have

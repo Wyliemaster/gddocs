@@ -8,7 +8,7 @@ Deletes a level from the server.
 
 **accountID** - The level author's account ID
 
-**gjp** - The level author's [GJP](/topics/encryption/gjp.md)
+**gjp** - The level author's [GJP](/topics/gjp.md)
 
 **levelID** - The ID of the level being deleted
 
@@ -48,8 +48,14 @@ req = requests.post("http://boomlings.com/database/deleteGJLevelUser20.php", dat
 print(req.text)
 ```
 
+### **curl**
+
+```bash
+curl http://boomlings.com/database/deleteGJLevelUser20.php -A "" -d "accountID=173831&gjp=********&levelID=62689548&secret=Wmfd2893gb7"
+```
+
 **Response**
-```py
+```plain
 1
 ```
 

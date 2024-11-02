@@ -1,18 +1,18 @@
 # suggestGJStars20.php
 
-Endpoint used by moderators to send levels to RobTop
+> Endpoint used by moderators to send levels to RobTop.
 
 ## Parameters
 
 ### Required Parameters
 
-**accountID** - accountID of the user
+**accountID** - accountID of the user.
 
-**gjp** - The [GJP](/topics/encryption/gjp.md) of the user
+**gjp** - The [GJP](/topics/gjp.md) of the user.
 
 **levelID** - the ID of the level
 
-**stars** - how many stars that are requested
+**stars** - How many stars that are requested.
 
 **secret** - Wmfp3879gc3
 
@@ -20,13 +20,14 @@ Endpoint used by moderators to send levels to RobTop
 
 **binaryVersion** - the binary version
 
-**feature** - 0 for star rate, 1 for feature, 2 for epic, 3 for legendary, 4 for mythic
+**feature** - 0 for star rate, 1 for feature, 2 for epic, 3 for legendary, 4 for mythic.
 
 **gdw** - 0
 
 ## Response
 
--2 or 1
+`-2` if not a moderator.
+`1` if is a moderator.
 
 ## example
 
@@ -54,6 +55,6 @@ print(req.text)
 ```
 
 **Response**
-```py
+```plain
 1
 ```

@@ -16,7 +16,7 @@ Gets the map packs.
 
 **gdw** - 0
 
-**page** - Denotes which page of map packs you want to retrieve, starting with 0
+**page** - Denotes which page of map packs you want to retrieve, starting with 0.
 
 ## Response
 
@@ -24,11 +24,11 @@ The response is formatted as follows:
 
 `packs#page#hash`
 
-where:
+Clarifications:
 
-- Packs is a list of [map pack](/resources/server/mappack.md) objects, separated by a pipe `|
-- Page is the page data in this format: `{total packs}:{current offset}:{page size}`
-- [Hash](/resources/server/hashes.md?id=getgjmappacks) used to validate the request by the GD client
+- `packs` is a list of [map pack](/resources/server/mappack.md) objects, separated by a pipe `|`.
+- `page` is the page data in this format: `{total packs}:{current offset}:{page size}`.
+- [`hash`](/resources/server/hashes.md?id=getgjmappacks) used to validate the request by the GD client.
 
 ## Example
 
@@ -48,6 +48,12 @@ data = {
 
 req = requests.post("http://boomlings.com/database/getGJMapPacks21.php", data=data)
 print(req.text)
+```
+
+### **curl**
+
+```bash
+curl http://boomlings.com/database/getGJMapPacks21.php -A "" -d "page=4&secret=Wmfd2893gb7"
 ```
 
 **Response**

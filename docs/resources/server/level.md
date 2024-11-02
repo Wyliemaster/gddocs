@@ -26,21 +26,21 @@ Keys indicated with an asterisk (\*) are only returned from the downloadGJLevel2
 
 | Key | Name/Value                | Type                                         | Description                                                              
 |-----|---------------------------|----------------------------------------------|--------------------------------------------------------------------------
-| 1   | levelID                  | **Integer**                                   | The id of the level                                                     
+| 1   | levelID                  | **Integer**                                   | The ID of the level                                                     
 | 2   | levelName                | **String**                                    | The name of the level                                               
 | 3   | description              | **String**                                    | The level description, encoded in [base64](/topics/encryption/base64.md) 
 | 4*  | levelString              | **[Level String](/topics/levelstring_encoding_decoding)**| All the data for the level                               
 | 5   | version                  | **Integer**                                   | The version of the level published                                       
-| 6   | playerID                 | **Integer**                                   | The player ID of the level author
+| 6   | playerID                 | **Integer**                                   | The playerID of the level author. (Different from accountID)
 | 8   | difficultyDenominator    | **Integer**                                   | Returns 0 if the level is N/A, returns 10 if a difficulty is assigned. Historically used to be the amount of people who have voted on the difficulty.
 | 9   | difficultyNumerator      | **Integer**                                   | The nominator used for calculating the level difficulty. Divided by the denominator to get the difficulty icon. Nowadays just 0 = unrated, 10 = easy, 20 = normal, 30 = hard, 40 = harder, 50 = insane. Can be also used to determine the demon difficulty as a side-effect of the voting system. Historically used to be the sum of stars from all votes |
 | 10  | downloads                | **Integer**                                   | The amount of times the level has been downloaded                          
-| 11  | setCompletes             | **Integer**                                   | The Number of people who have completed a specific level removed in update 2.1
-| 12  | officialSong             | **Integer**                                   | The official song number used by the level, if applicable         
-| 13  | gameVersion              | **Integer** 			                   	     | The GD version the level was uploaded in. Versions 1.0 to 1.6 use version numbers 1 to 7 respectively. Version 10 is 1.7. Otherwise, divide the version number by ten to get the correct number. 
-| 14  | likes                    | **Integer** 			                   	     | likes - dislikes |
-| 15  | length                   | **Integer** 			                   	     | A number from 0-4, where 0 is tiny and 4 is XL   |  
-| 16  | dislikes                 | **Integer**                                   | dislikes - likes |
+| 11  | setCompletes [Removed]            | **Integer**                                   | The number of people who have completed a specific level (Removed in update 2.1)
+| 12  | officialSong             | **Integer**                                   | The official song number used by the level, if applicable. (-1 to 21)         
+| 13  | gameVersion              | **Integer** 			                   	     | The GD version the level was uploaded in. Versions 1.0 to 1.6 use version numbers 1 to 7 respectively. Version 10 is 1.7. Otherwise, divide the version number by 10 to get the correct number. 
+| 14  | likes                    | **Integer** 			                   	     | `likes` - `dislikes` |
+| 15  | length                   | **Integer** 			                   	     | A number from 0 to 4, where 0 is tiny, 1 is short, 2 is medium, 3 is long and 4 is XL. |  
+| 16  | dislikes                 | **Integer**                                   | `dislikes` - `likes` |
 | 17  | demon                    | **Bool** 				                     | If the level's difficulty is demon    
 | 18  | stars                    | **Integer** 				                     | The amount of stars rewarded for completing the level
 | 19  | featureScore             | **Integer** 	                                 | 0 if the level is not featured, otherwise a positive number. The higher it is, the higher the level appears on the featured levels list.
@@ -57,13 +57,13 @@ Keys indicated with an asterisk (\*) are only returned from the downloadGJLevel2
 | 38  | verifiedCoins            | **Bool** 				                     | If the level's user coins are verified (silver)
 | 39  | starsRequested           | **Integer** 				                     | The star value requested for the level     
 | 40* | lowDetailMode            | **Bool** 				                     | If the level has a low detail checkbox    
-| 41* | dailyNumber              | **Integer** 				                     | Daily/weekly levels only. Returns which daily/weekly the level was (e.g. the 500th daily level). Subtract 100,000 if the level is weekly
+| 41* | dailyID                  | **Integer** 				                     | Daily/weekly levels only. Returns which daily/weekly the level was (e.g. the 500th daily level). Subtract 100,000 if the level is weekly.
 | 42  | epic                     | **Integer** 				                     | The epic rating for the level. 0 = none, 1 = epic, 2 = legendary, 3 = mythic.   
-| 43  | demon Difficulty         | **Integer** 				                     | The difficulty of the demon rating. 3 = easy, 4 = medium, 0 = hard, 5 = insane, 6 = extreme. Can also be used to determine the level difficulty non-demons had before rating as a side-effect of the voting system.
+| 43  | demonDifficulty         | **Integer** 				                     | The difficulty of the demon rating. 3 = easy, 4 = medium, 0 = hard, 5 = insane, 6 = extreme. Can also be used to determine the level difficulty non-demons had before rating as a side-effect of the voting system.
 | 44  | isGauntlet               | **Bool**                                      | if the level is in a gauntlet |
-| 45  | objects                  | **Integer** 				                     | The amount of objects in the level, used to determine if the level is considered "large". It caps at 65535     
+| 45  | objectsCount                  | **Integer** 				                     | The amount of objects in the level, used to determine if the level is considered "large". It caps at 65535     
 | 46  | editorTime               | **Integer** 				                     | the total number of seconds spend on the current copy of a level
-| 47  | editorTime(Copies)       | **Integer** 				                     | The accumulative total of seconds spend on previous copies of the level
+| 47  | editorTime (Copies)       | **Integer** 				                     | The accumulative total of seconds spend on previous copies of the level
 | 48  | settingsString [Unused]  | **String**                              | It was found in early 2.1 coming from the servers and was removed shortly after. The `December 2019 2.2 Leaks` however have information regarding it showing that it is called `settingsString` but, there is no information regarding its usage |
 | 52* | songIDs                  | **Comma-Separated List**                | The list of all song IDs in the level, separated by commas
 | 53* | sfxIDs                   | **Comma-Separated List**                | The list of all SFX IDs in the level, separated by commas

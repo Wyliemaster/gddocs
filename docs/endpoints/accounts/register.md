@@ -1,3 +1,3 @@
 # accounts/register.php
 
-Account registration via a webpage
+> Account registration via a webpage

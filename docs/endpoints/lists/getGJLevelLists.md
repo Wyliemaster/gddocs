@@ -12,7 +12,7 @@
 | `type`            | Search type, [see values](#type). Defaults to most liked                                                      |                                       |
 | `str`             | Search query, user ID or level list depending on `type`                                                       | Only on types 5 and 10                |
 | `page`            | Which page to request, defaults to 0                                                                          |                                       |
-| `gjp2`            | The [GJP2](/topics/encryption/gjp.md) for the `accountID`.                                                    |                                       |
+| `gjp2`            | The password for the accout encrypted in [GJP2](/topics/gjp.md).                                           |                                       |
 | `accountID`       | The ID for the account which is doing the search. Only sent on types 8, 13 and 5                              |                                       |
 | `diff`            | Difficulty filter, [see values](#diff)                                                                        |                                       |
 | `demonFilter`     | Selects which demon difficulty to search, [see values](#demonFilter). If not sent will search all demon types |                                       |
@@ -83,22 +83,21 @@
 
 ## Response
 
-A successful level search will return the data in the format
+A successful list search will return the data in the format
 
 ```
-levels#creators#songs#page info#hash
+lists#creators#songs#page info#hash
 ```
 
 where:
 
-- `levels` is a list of [Level Objects](/resources/client/level-components/level-object.md)  separated by `|`
+- `lists` is a list of [List Objects](/resources/server/list.md)  separated by `|`
 - `creators` is a list of creators separated by `|`, each in the format `userID:username:accountID`
-- `songs` is a list of [Song Objects](/resources/server/song.md) separated by `~:~`
 - `page info` is in the format `total:offset:amount` where:
   - `total` - total number of levels for the query
   - `offset` - offset from which the current page starts
   - `amount` - number of levels per page (always 10 for the gd servers)
-- `hash` is a hash of every level, see [Hashes](#)
+- `hash` is a hash of every list, see [Hashes](#)
 <!-- should the hash be explained here or on its own page like how the old docs had a page for CHK -->
 
 If the request is not successful, it will return `-1`

@@ -1,6 +1,6 @@
 # rateGJDemon21.php
 
-Rates the demon difficulty of a demon level - only works for Geometry Dash moderators
+Rates the demon difficulty of a demon level - only works for Geometry Dash moderators.
 
 ## Parameters
 
@@ -14,11 +14,11 @@ Rates the demon difficulty of a demon level - only works for Geometry Dash moder
 
 **accountID** - The accountID of the user who's rating the demon's difficulty
 
-**gjp** - The [GJP](/topics/encryption/gjp.md) of the user who's rating the demon's difficulty
+**gjp** - The [GJP](/topics/gjp.md) of the user who's rating the demon's difficulty
 
 **levelID** - The ID of the demon being rated
 
-**rating** - 1 for Easy Demon, 2 for Medium Demon, 3 for Hard Demon, 4 for Insane Demon and 5 for Extreme Demon
+**rating** - 1 for Easy Demon, 2 for Medium Demon, 3 for Hard Demon, 4 for Insane Demon and 5 for Extreme Demon.
 
 ### Optional Parameters
 
@@ -26,19 +26,15 @@ Rates the demon difficulty of a demon level - only works for Geometry Dash moder
 
 ## Response
 
-For normal Players: Internal Server Error or -1
+For Normal Players: Internal Server Error or returns `-1`.
 
-if mode=1
-
-mod: levelID
-
-normal user: -2
+For Moderators: Returns level ID.
 
 ## Example
 
 <!-- tabs:start -->
 
-### **Python - normal Players**
+### **Python - Normal Players**
 
 ```py
 import requests
@@ -57,7 +53,7 @@ print(req.text)
 ```
 
 **Response**
-```py
+```plain
 -1
 ```
 
@@ -84,7 +80,7 @@ print(req.text)
 ```
 
 **Response**
-```py
+```plain
 4284013
 ```
 

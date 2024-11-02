@@ -6,11 +6,11 @@ Uploads a created level to the servers.
 
 ### Required Parameters
 
-**gameVersion** - The game version. Currently 22
+**gameVersion** - The game version. Currently `22` (2.2).
 
-**accountID** - The uploader's account ID
+**accountID** - The uploader's account ID.
 
-**gjp2** - The uploader's [GJP2](./topics/encryption/gjp.md)
+**gjp2** - The uploader's [GJP2](./topics/gjp.md)
 
 **userName** - The uploader's username
 
@@ -70,7 +70,7 @@ Uploads a created level to the servers.
 
 ## Response
 
-Returns the ID of the uploaded level, or `-1` if the request was rejected.
+Returns the ID of the uploaded level if successful, or `-1` if the request was rejected.
 
 ## Example
 
