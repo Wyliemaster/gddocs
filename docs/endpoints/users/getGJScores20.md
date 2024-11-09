@@ -12,7 +12,7 @@ Gets the leaderboard scores.
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **gdw** - 0
 
@@ -43,7 +43,7 @@ data = {
 	"count": 20
 }
 
-req = requests.post('http://boomlings.com/database/getGJScores20.php', data=data)
+req = requests.post('http://www.boomlings.com/database/getGJScores20.php', data=data)
 print(req.text)
 ```
 

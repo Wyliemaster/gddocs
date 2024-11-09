@@ -22,7 +22,7 @@ Sends a message to a user
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **gdw** - 0
 
@@ -41,7 +41,7 @@ import requests
 
 data = {
     "gameVersion": 21,
-    "binaryVersion": 35,
+    "binaryVersion": 44,
     "gdw": 0,
 	"accountID": 173831, # This is DevExit's account ID
 	"gjp": "*******", # This would be DevExit's password encoded with GJP encryption
@@ -51,7 +51,7 @@ data = {
     "secret": "Wmfd2893gb7",
 }
 
-r = requests.post('http://boomlings.com/database/uploadGJMessage20.php', data=data)
+r = requests.post('http://www.boomlings.com/database/uploadGJMessage20.php', data=data)
 print(req.text)
 ```
 

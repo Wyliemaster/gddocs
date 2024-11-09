@@ -1,6 +1,6 @@
 # getTop1000.php
 
-[getTop1000.php](http://boomlings.com/database/accounts/getTop1000.php) is one of the very few endpoints found on the servers that can be accessed via a [GET request](https://www.w3schools.com/tags/ref_httpmethods.asp). The purpose of this endpoint is to gather the top 1000 star grinders to be used on the star leaderboards.
+[getTop1000.php](http://www.boomlings.com/database/accounts/getTop1000.php) is one of the very few endpoints found on the servers that can be accessed via a [GET request](https://www.w3schools.com/tags/ref_httpmethods.asp). The purpose of this endpoint is to gather the top 1000 star grinders to be used on the star leaderboards.
 
 ## Parameters
 
@@ -11,7 +11,7 @@ This endpoint does not require any parameters
 ```py
 import requests
 
-req = requests.get("http://boomlings.com/database/accounts/getTop1000.php")
+req = requests.get("http://www.boomlings.com/database/accounts/getTop1000.php")
 print(req.text)
 
 ```

@@ -16,7 +16,7 @@ Gets the rewards from the chests.
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **gdw** - 0
 
@@ -72,7 +72,7 @@ data = {
     "rewardType": 1
 }
 
-req = requests.post("http://boomlings.com/database/getGJRewards.php", data=data)
+req = requests.post("http://www.boomlings.com/database/getGJRewards.php", data=data)
 print(req.text)
 
 decoded_text = xor_cipher(base64.urlsafe_b64decode(response_text.split("|")[0][5:].encode()).decode(), '59182')

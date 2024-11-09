@@ -3,6 +3,8 @@
 GJP is a parameter commonly sent as `gjp` in requests. It is used for account authentication, and commonly sent with the `accountID` parameter. 
 It was changed to `gjp2` in 2.2.
 
+`gjp` probably means **G**eometry **J**ump **P**assword (Geometry dash was previously called "geometry jump")
+
 ## Generating GJP2
 
 The GJP is your password, salted with "mI29fmAnxgTs" and hashed with SHA-1.
@@ -21,6 +23,8 @@ def generate_gjp2(password: str = "", salt: str = "mI29fmAnxgTs") -> str:
 
 	return hash
 ```
+
+Because your password is hashed, you cannot "decode" it back
 
 ## Old GJP Encoding/Decoding
 

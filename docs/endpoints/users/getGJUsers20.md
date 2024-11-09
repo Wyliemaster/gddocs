@@ -12,7 +12,7 @@ Searches for a user and returns their info
 
 **gameVersion** - 21
 
-**binaryVersion** - 35
+**binaryVersion** - 44
 
 **gdw** - 0
 
@@ -40,7 +40,7 @@ data = {
     "str": "Foundmyball"
 }
 
-req = requests.post('http://boomlings.com/database/getGJUsers20.php', data=data)
+req = requests.post('http://www.boomlings.com/database/getGJUsers20.php', data=data)
 print(req.text)
 ```
 

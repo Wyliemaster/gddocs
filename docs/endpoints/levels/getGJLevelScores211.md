@@ -18,7 +18,7 @@ Fetches the leaderboard for a level and submits your level stats to the server
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **gdw** - 0
 
@@ -88,7 +88,7 @@ data = {
     "secret": "Wmfd2893gb7"
 }
 
-req = requests.post("http://boomlings.com/database/getGJLevelScores211.php", data=data)
+req = requests.post("http://www.boomlings.com/database/getGJLevelScores211.php", data=data)
 print(req.text)
 ```
 

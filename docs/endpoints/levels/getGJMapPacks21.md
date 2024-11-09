@@ -12,7 +12,7 @@ Gets the map packs.
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **gdw** - 0
 
@@ -46,7 +46,7 @@ data = {
     "page": 4
 }
 
-req = requests.post("http://boomlings.com/database/getGJMapPacks21.php", data=data)
+req = requests.post("http://www.boomlings.com/database/getGJMapPacks21.php", data=data)
 print(req.text)
 ```
 

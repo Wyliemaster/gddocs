@@ -16,7 +16,7 @@ Likes a level, comment, etc.
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **gdw** - 0
 
@@ -51,7 +51,7 @@ data = {
 	"type": 1
 }
 
-req = requests.post('http://boomlings.com/database/likeGJItem211.php', data=data)
+req = requests.post('http://www.boomlings.com/database/likeGJItem211.php', data=data)
 print(req.text)
 ```
 

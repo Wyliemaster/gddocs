@@ -12,7 +12,7 @@ Gets the gauntlet levels.
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44 *(The binary version is required for some gauntlets, the list is [here](/resources/server/gauntlet?id=gauntlet-names))*
 
 **gdw** - 0
 
@@ -35,7 +35,7 @@ data = {
     "secret": "Wmfd2893gb7"
 }
 
-req = requests.post("http://boomlings.com/database/getGJGauntlets21.php", data=data)
+req = requests.post("http://www.boomlings.com/database/getGJGauntlets21.php", data=data)
 print(req.text)
 ```
 

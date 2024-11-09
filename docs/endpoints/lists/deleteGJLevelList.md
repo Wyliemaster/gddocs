@@ -22,7 +22,7 @@ Deletes a list from the server.
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 ## Response
 
@@ -46,7 +46,7 @@ data = {
         "secret": "Wmfv2898gc9"
 }
 
-req = requests.post("http://boomlings.com/database/deleteGJLevelList.php", data=data)
+req = requests.post("http://www.boomlings.com/database/deleteGJLevelList.php", data=data)
 print(req.text)
 ```
 

@@ -18,7 +18,7 @@ Deletes a level from the server.
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **gdw** - 0
 
@@ -44,7 +44,7 @@ data = {
         "secret": "Wmfv2898gc9"
 }
 
-req = requests.post("http://boomlings.com/database/deleteGJLevelUser20.php", data=data)
+req = requests.post("http://www.boomlings.com/database/deleteGJLevelUser20.php", data=data)
 print(req.text)
 ```
 

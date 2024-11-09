@@ -22,7 +22,7 @@ Joins a multiplayer lobby. This endpoint is hosted on `geometrydash.com`, not `b
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **gdw** - 0
 

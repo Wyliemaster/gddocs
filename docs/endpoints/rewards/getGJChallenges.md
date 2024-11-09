@@ -16,7 +16,7 @@ Gets a user's quests.
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **gdw** - 0
 
@@ -63,7 +63,7 @@ data = {
     "chk": "funnyBwAMBgc"
 }
 
-req = requests.post("http://boomlings.com/database/getGJChallenges.php", data=data)
+req = requests.post("http://www.boomlings.com/database/getGJChallenges.php", data=data)
 print(req.text)
 ```
 

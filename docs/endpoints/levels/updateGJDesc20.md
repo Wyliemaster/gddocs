@@ -20,7 +20,7 @@ Updates the description of a level
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **gdw** - 0
 
@@ -45,7 +45,7 @@ data = {
     "secret": "Wmfd2893gb7",
 }
 
-r = requests.post('http://boomlings.com/database/updateGJDesc20.php', data=data)
+r = requests.post('http://www.boomlings.com/database/updateGJDesc20.php', data=data)
 print(req.text)
 ```
 

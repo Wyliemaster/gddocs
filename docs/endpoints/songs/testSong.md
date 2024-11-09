@@ -25,7 +25,7 @@ import requests
 
 songID = 787311
 
-req = requests.get(f'http://boomlings.com/database/testSong.php?songID={songID}')
+req = requests.get(f'http://www.boomlings.com/database/testSong.php?songID={songID}')
 print(req.text)
 ```
 

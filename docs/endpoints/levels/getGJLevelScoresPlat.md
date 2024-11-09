@@ -18,7 +18,7 @@ Fetches the leaderboard for a platformer level and submits your level stats to t
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **gdw** - 0
 
@@ -90,7 +90,7 @@ data = {
     "secret": "Wmfd2893gb7"
 }
 
-req = requests.post("http://boomlings.com/database/getGJLevelScoresPlat.php", data=data)
+req = requests.post("http://www.boomlings.com/database/getGJLevelScoresPlat.php", data=data)
 print(req.text)
 ```
 
