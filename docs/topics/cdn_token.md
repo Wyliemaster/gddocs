@@ -11,9 +11,9 @@ It can be generated like this:
 import time
 
 def generateCdnExpireTimestamp():
-    '''
+    """
     Will generate a unix timestamp offseted by 1H (3600 seconds)
-    '''
+    """
     unix_timestamp = int(time.time()) # removing the decimals
     return unix_timestamp + 3600 # offseting the timestamp by 1H
 
@@ -27,7 +27,7 @@ Tokens are generated this way:
 import base64
 
 def generateCdnToken(endpoint:str, expires:int):
-    '''
+    """
     Will generate a CDN token for the geometry dash sfx/music library endpoint
     
     The endpoint is what's after `https://geometrydashfiles.b-cdn.net`
@@ -37,7 +37,7 @@ def generateCdnToken(endpoint:str, expires:int):
     ---
     
     The expires argument is generated via the `generateCdnExpireTimestamp()` function
-    '''
+    """
     return base64.urlsafe_b64encode(hashlib.md5(f"8501f9c2-75ba-4230-8188-51037c4da102{endpoint}{expires}".encode()).digest()).decode()
 ```
 
