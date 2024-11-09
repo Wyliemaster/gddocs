@@ -316,4 +316,4 @@ GS_30 contains all the rewards you have claimed in the Wraith
 
 | Structure |
 |:----------|
-|`<k>o_reward_{id}</k><s>1</s>`|
+|`<k>o_secret_{id}</k><s>1</s>`|
