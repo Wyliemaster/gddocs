@@ -47,6 +47,8 @@ GS values contain Information regarding certain aspects of the game
 | 39 | Soul Path Progress |
 | 40 | Amount of Completed Gauntlets |
 | 41 | List Rewards |
+| 42 | Insane Difficulty Levels Completed |
+| 43 | Event Levels Beaten (citation needed) |
 | unique_{LevelID}_{Coins Collected} | The Coins Collected on the Official Levels
 | unique_secretB03 | Glubfub coin |
 | unique_secret04 | Official level page secret coin |
