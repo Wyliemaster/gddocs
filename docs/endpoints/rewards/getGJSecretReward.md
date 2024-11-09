@@ -31,7 +31,7 @@ A list of attributes of the Rewards, separated by colons `:` as follows:
 - The number used for the `chk`
 - The reward ID
 - Unknown (always 1)
-- Item (1 is Fire, 2 is Ice, 3 is Poison, 4 is Shadow, 5 is Lava, 6 is Demon Key, 7 is Orbs, 8 is Diamonds, 10 is Earth, 11 is Blood, 12 is Metal, 13 is Light and 14 is Soul), followed by a comma and the amount of said item
+- Item (1 is Fire, 2 is Ice, 3 is Poison, 4 is Shadow, 5 is Lava, 6 is Demon Key, 7 is Orbs, 8 is Diamonds, 10 is Earth, 11 is Blood, 12 is Metal, 13 is Light and 14 is Soul, 15 is Golden Key), followed by a comma and the amount of said item
 
 This list is then [XOR](/topics/encryption/xor.md)'d and [URL-Safe Base64](/topics/encryption/base64.md) encoded. Then it is separated with its [hash](/resources/server/hashes.md?id=getgjrewards) by a pipe `|`. It also has a random string of 5 characters appended to the front.
 
