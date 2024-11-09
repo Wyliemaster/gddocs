@@ -309,3 +309,11 @@ GS_29 is unknown but is related to trying to fix some path bug. Contary to most 
 | Structure |
 |:----------|
 | `<k>GS_29</k><t />` |
+
+## GS_30
+
+GS_30 contains all the rewards you have claimed in the Wraith
+
+| Structure |
+|:----------|
+|`<k>o_reward_{id}</k><s>1</s>`|
