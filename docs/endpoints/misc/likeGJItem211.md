@@ -51,7 +51,7 @@ data = {
 	"type": 1
 }
 
-req = requests.post('http://boomlings.com/database/likeGJItem211.php', data=data)
+req = requests.post('http://www.boomlings.com/database/likeGJItem211.php', data=data)
 print(req.text)
 ```
 

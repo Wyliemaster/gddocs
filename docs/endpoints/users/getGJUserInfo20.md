@@ -40,7 +40,7 @@ data = {
     "targetAccountID": 173831
 }
 
-req = requests.post('http://boomlings.com/database/getGJUserInfo20.php', data=data)
+req = requests.post('http://www.boomlings.com/database/getGJUserInfo20.php', data=data)
 print(req.text)
 ```
 

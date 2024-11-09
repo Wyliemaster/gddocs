@@ -135,7 +135,7 @@ data = {
 }
 data['seed2'] = generate_chk([data['accountID'], data['userCoins'], data['demons'], data['stars'], data['coins'], data['iconType'], data['icon'], data['diamonds'], data['accIcon'], data['accShip'], data['accBall'], data['accBird'], data['accDart'], data['accRobot'], data['accGlow'], data['accSpider'], data['accExplosion'], len(data['dinfo']), data['dinfow'], data['dinfog'], data['sinfo'], data['sinfod'], data['sinfog']], "85271", "xI35fsAapCRg")
 
-r = requests.post('http://boomlings.com/database/updateGJUserScore22.php', data=data)
+r = requests.post('http://www.boomlings.com/database/updateGJUserScore22.php', data=data)
 print(req.text)
 ```
 

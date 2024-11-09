@@ -42,7 +42,7 @@ data = {
     'secret': 'Wmfd2893gb7'
 }
 
-r = requests.post('http://boomlings.com/database/removeGJFriend20.php', data=data)
+r = requests.post('http://www.boomlings.com/database/removeGJFriend20.php', data=data)
 print(req.text)
 ```
 

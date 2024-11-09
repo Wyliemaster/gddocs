@@ -63,7 +63,7 @@ data = {
     "chk": "funnyBwAMBgc"
 }
 
-req = requests.post("http://boomlings.com/database/getGJChallenges.php", data=data)
+req = requests.post("http://www.boomlings.com/database/getGJChallenges.php", data=data)
 print(req.text)
 ```
 

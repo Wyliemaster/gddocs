@@ -6,7 +6,7 @@ In Geometry Dash 2.2, the Music library has been added, adding thousands of song
 
 In 2.206, NCS was added to the music library, which forced RobTop to overhaul the file format.
 
-The current library (as of 2.206) can be fetched via a GET request to `https://geometrydashfiles.b-cdn.net/music/musiclibrary_02.dat`.
+The current library (as of 2.207) can be fetched via a GET request to `https://geometrydashfiles.b-cdn.net/music/musiclibrary_02.dat`.
 
 The old music library can be fetched via a GET request to `https://geometrydashfiles.b-cdn.net/music/musiclibrary.dat`.
 
