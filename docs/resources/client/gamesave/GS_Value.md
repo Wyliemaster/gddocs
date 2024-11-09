@@ -238,6 +238,7 @@ GS_21 Contains the reward data for the gauntlets you have completed
 | 0022 | Zolguroth Chest (repeatedly poke Shopkeeper and return to shop) |
 | 0023 | Help Button Chest |
 | 0024 | Reddit Chest |
+| o_secret_{id} | [Corresponding Wraith code](/topics/vault_codes.md) |
 
 All chests between 0012 and 0021 are Ad Chests from the free versions of the game.
 
