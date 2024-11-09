@@ -14,7 +14,7 @@ Downloads a user level and info so it can be played.
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **gdw** - 0
 

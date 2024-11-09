@@ -16,7 +16,7 @@ Gets a user's quests.
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **gdw** - 0
 

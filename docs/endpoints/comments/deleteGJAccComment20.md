@@ -18,7 +18,7 @@
 
 **gameVersion** - 21
 
-**binaryVersion** - 35
+**binaryVersion** - 44
 
 **gdw** - 0
 
