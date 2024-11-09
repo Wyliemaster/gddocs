@@ -308,4 +308,22 @@ GS_29 is unknown but is related to trying to fix some path bug. Contary to most 
 
 | Structure |
 |:----------|
-| `<k>GS_29</k><t />` |
+| `<k>GS_29</k><t/>` |
+
+## GS_30
+
+GS_30 contains the Wraith rewards
+
+| Structure |
+|:----------|
+| `TODO` |
+
+
+## GS_31
+
+GS_31 contains the Event Levels rewards
+
+| Structure |
+|:----------|
+| `TODO` |
+
