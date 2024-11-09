@@ -64,6 +64,7 @@
 |  19  | Unknown (same as type 10 but this type has pagination and no star rate filter)    |
 |  21  | Daily history                                                                     |
 |  22  | Weekly history                                                                    |
+|  23  | Event levels history                                                              | 
 |  25  | Level list, uses `str` as the list ID                                             |
 |  26  | Unknown (same as type 19 but each page has up to 100 levels instead of 10 on it)  |
 
