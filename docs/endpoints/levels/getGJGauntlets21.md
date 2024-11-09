@@ -12,7 +12,7 @@ Gets the gauntlet levels.
 
 **gameVersion** - 22
 
-**binaryVersion** - 44
+**binaryVersion** - 44 *(The binary version is required for some gauntlets, the list is [here](/resources/server/gauntlet?id=gauntlet-names))*
 
 **gdw** - 0
 
