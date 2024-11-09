@@ -28,7 +28,7 @@ Sends a star suggestion for a level
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **gdw** - 0
 

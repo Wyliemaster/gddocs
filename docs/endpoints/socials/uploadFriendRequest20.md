@@ -7,7 +7,7 @@
 | Parameter       | Explanation                                                        | Optional |
 | :-------------- | :----------------------------------------------------------------- | -------- |
 | `gameVersion`   | The Game Version the player is playing on. 22 for 2.2              | `True`   |
-| `binaryVersion` | The current build the player playing on. 42 for 2.206              | `True`   |
+| `binaryVersion` | The current build the player playing on. 44 for 2.207              | `True`   |
 | `gdw`           | If the player is using Geometry Dash World                         | `True`   |
 | `accountID`     | The player's account ID                                            | `False`  |
 | `toAccountID`   | The account which the player is trying to send a friend request to | `False`  |

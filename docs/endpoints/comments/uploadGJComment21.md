@@ -26,7 +26,7 @@ Uploads a comment to a user level.
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **gdw** - 0
 
