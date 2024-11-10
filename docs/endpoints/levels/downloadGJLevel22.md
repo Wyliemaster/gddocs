@@ -6,7 +6,7 @@ Downloads a user level and info so it can be played.
 
 ### Required Parameters
 
-**levelID** - The ID of the level to download. Use -1 for the daily level and -2 for the weekly.
+**levelID** - The ID of the level to download. Use -1 for the daily level, -2 for the weekly and -3 for the event level.
 
 **secret** - Wmfd2893gb7
 
