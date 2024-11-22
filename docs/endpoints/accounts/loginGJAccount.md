@@ -8,7 +8,7 @@
 | :--------- | :---------------------------------------------------------------------------------------------------- | :------- |
 | `udid`     | [The user's Universal Unique Identifier](https://en.wikipedia.org/wiki/Universally_unique_identifier) | `False`  |
 | `username` | The username for the account the player is trying to log into                                         | `False`  |
-| `password` | The plaintext password for the account the player is trying to log into                               | `False`  |
+| `gjp2`     | The [GJP2](/topics/encryption/gjp.md) of the user updating their profile                              | `False`  |
 | `sID`      | The player's steam ID                                                                                 | `True`   |
 | `secret`   | Account Secret: `Wmfv3899gc9`                                                                         | `False`  |
 
