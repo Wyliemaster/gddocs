@@ -4,7 +4,7 @@
 
 Gauntlets are a collection of themed levels created by the users of Geometry Dash which were hand-picked by RobTop.
 
- - As of Geometry Dash 2.206, there are `27 gauntlets`
+ - As of Geometry Dash 2.207, there are `35 gauntlets`
  - **A list of the Gauntlet Names can be found [here](/resources/server/gauntlet?id=gauntlet-names)**<br/>*Keep in mind that these are subject to change*
 
 A typical gauntlet server response is structured with a `key:value:key:value` pairing and is then split with a `|`
@@ -50,24 +50,24 @@ Note: Bolded gauntlet names are the ones that are added in-game, and the rest ar
   | 13| **Monster**|
   | 14| **Doom**|
   | 15| **Death**|
-  | 16| Forest|
+  | 16| **Forest**|
   | 17| Rune|
-  | 18| Force|
+  | 18| **Force**|
   | 19| Spooky|
   | 20| Dragon|
   | 21| **Water**|
-  | 22| Haunted|
+  | 22| **Haunted**|
   | 23| Acid|
   | 24| Witch|
   | 25| Power|
   | 26| Potion|
   | 27| Snake|
   | 28| Toxic|
-  | 29| Halloween|
+  | 29| **Halloween**|
   | 30| Treasure|
   | 31| Ghost|
   | 32| Gem|
-  | 33| Inferno|
+  | 33| **Inferno**|
   | 34| **Portal**|
   | 35| **Strange**|
   | 36| **Fantasy**|
@@ -75,7 +75,7 @@ Note: Bolded gauntlet names are the ones that are added in-game, and the rest ar
   | 38| Surprise|
   | 39| **Mystery**|
   | 40| **Cursed**|
-  | 41| Cyborg|
+  | 41| **Cyborg**|
   | 42| **Castle**|
   | 43| Grave|
   | 44| Temple|
@@ -84,6 +84,8 @@ Note: Bolded gauntlet names are the ones that are added in-game, and the rest ar
   | 48| **Universe**|
   | 49| **Discord**|
   | 50| **Split**|
+  | 51| **NCS I**|
+  | 52| **NCS II**|
 ### Trivia
 
 - Gauntlets use the same response parser as [MapPacks](/resources/server/mappack) but they do not share the full range of features mappacks have
