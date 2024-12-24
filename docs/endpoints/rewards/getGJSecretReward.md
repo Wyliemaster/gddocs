@@ -10,7 +10,7 @@ Tries a Wraith code.
 
 **secret** - Wmfd2893gb7
 
-**chk** - 5 random chars appended to the beginning of a random number [XOR](/topics/encryption/xor.md)'d and [URL-Safe Base64](/topics/encryption/base64.md) encoded. Currently the game accepts any string 6 characters or longer
+**chk** - 5 random chars appended to the beginning of a random number [XOR](/topics/encryption/xor.md)'d and [URL-Safe Base64](/topics/encryption/base64.md) encoded. Currently the server accepts any string 6 characters or longer
 
 ### Optional Parameters
 
