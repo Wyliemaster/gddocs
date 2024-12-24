@@ -47,6 +47,8 @@ GS values contain Information regarding certain aspects of the game
 | 39 | Soul Path Progress |
 | 40 | Amount of Completed Gauntlets |
 | 41 | List Rewards |
+| 42 | Insane Difficulty Levels Completed |
+| 43 | Event Levels Beaten (citation needed) |
 | unique_{LevelID}_{Coins Collected} | The Coins Collected on the Official Levels
 | unique_secretB03 | Glubfub coin |
 | unique_secret04 | Official level page secret coin |
@@ -236,6 +238,7 @@ GS_21 Contains the reward data for the gauntlets you have completed
 | 0022 | Zolguroth Chest (repeatedly poke Shopkeeper and return to shop) |
 | 0023 | Help Button Chest |
 | 0024 | Reddit Chest |
+| o_secret_{id} | [Corresponding Wraith code](/topics/vault_codes.md) |
 
 All chests between 0012 and 0021 are Ad Chests from the free versions of the game.
 
@@ -309,3 +312,11 @@ GS_29 is unknown but is related to trying to fix some path bug. Contary to most 
 | Structure |
 |:----------|
 | `<k>GS_29</k><t />` |
+
+## GS_30
+
+GS_30 contains all the rewards you have claimed in the Wraith
+
+| Structure |
+|:----------|
+|`<k>o_secret_{id}</k><s>1</s>`|

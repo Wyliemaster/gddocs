@@ -1,12 +1,14 @@
 # Vault Codes
 
-In Geometry Dash 2.2 there are three different vaults you can access. The Vault, Vault of Secrets and the Chamber of Time. Each vault has a select number of passwords that you can enter to unlock icons and colors.
+In Geometry Dash 2.207, there are four different vaults you can access. The Vault, Vault of Secrets, The Chamber of Time and The Wraith. Each vault has a select number of passwords that you can enter to unlock icons and colors. However, the Wraith gives you orbs, shards and diamonds.
 
 ## Vault Code Encryption
 
 The Vault: Codes are in plaintext and arent encrypted
 
 Vault of Secrets and Chamber of time: [VaultCode] + ask2fpcaqCQ2 -> Xor with a key of 19283 -> base64 encode
+
+The Wraith: codes are server-side and can be added by RobTop at any time, but cannot be reverse-engineered. They are case-insensitive and space-insensitive.
 
 ### Table of Vault codes
 
@@ -41,3 +43,18 @@ Vault of Secrets and Chamber of time: [VaultCode] + ask2fpcaqCQ2 -> Xor with a k
 | Chamber Of Time  | river | color2 | 'a river' also works
 | Chamber Of Time  | backontrack | spider
 | Chamber Of Time  | givemehelper | robot
+
+### Wraith codes (so far)
+
+| Code           | ID | Rewards        |
+|----------------|----|----------------|
+| robtopisnice   | 11 | 10 orbs        |
+| skibidi        | 12 | 1 orb          |
+| checksteam     | 13 | 1 demon key    |
+| fireinthehole  | 14 | 1 fire shard   |
+| wellmet        | 15 | 5 diamonds     |
+| wateronthehill | 16 | 1 ice shard    |
+| bussin         | 17 | 69 orbs        |
+| thickofit      | 18 | 1 orb          |
+| touchgrass     | 19 | 1 earth shard  |
+

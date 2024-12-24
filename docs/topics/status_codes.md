@@ -65,3 +65,16 @@ Events over the Geometry Dash servers usually send an error code denoting that t
 |:----|:------------|
 | `{time}` | The duration of your ban left in seconds |
 | `{reason}` | The reason behind your ban |
+
+#### uploadGJLevelList
+
+| Code   | Name           | Description                  |
+|:-------|:---------------|:-----------------------------|
+| `-4`   | Bad Name       | invalid list name            |
+| `-5`   | No Name        | missing list name            |
+| `-6`   | No Levels      | invalid/missing level list   |
+| `-9`   | Unauthorized   | invalid/missing account ID   |
+| `-10`  | Bad Seed       | incorrect/missing seed value |
+| `-11`  | Wrong Password | incorrect/missing password   |
+| `-12`  | Ratelimit      | sending requests too fast    |
+| `-100` | Bad Secret     | incorrect/missing secret     |

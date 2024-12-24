@@ -86,4 +86,6 @@ Salt: `pC26fpYaQCtg`
 
 ## getGJLevelLists
 
-This endpoint returns a hash, but since the GD client doesn't check it, the way to generate this hash is unknown.
+This endpoint's hash is static, since it takes no parameters. It's currently always returned as `f5da5823d94bbe7208dd83a30ff427c7d88fdb99`, which is just the salt's hash.
+
+Salt: `xI25fpAapCQg`

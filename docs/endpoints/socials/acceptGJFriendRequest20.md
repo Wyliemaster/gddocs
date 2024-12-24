@@ -1,4 +1,4 @@
-# Accepting Friend Requests
+# acceptGJFriendRequest20
 
 > This endpoint is used to accept friend requests recieved from other users
 
@@ -12,7 +12,7 @@
 | `requestID`       | The ID of the friend request being accepted                        | `True`   |
 | `accountID`       | The player's account ID                                            | `False`  |
 | `targetAccountID` | The account which the player is trying to send a friend request to | `False`  |
-| `gj2p`            | The player's [GJP2](/topics/encryption/gjp.md)                     | `False`  |
+| `gjp2`            | The player's [GJP2](/topics/encryption/gjp.md)                     | `False`  |
 | `secret`          | The common secret: `Wmfd2893gb7`                                   | `False`  |
 
 ## Response

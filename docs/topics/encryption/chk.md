@@ -161,7 +161,8 @@ Random number consisting of *5* digits.
 - AccountID
 - LevelID
 - Percentage
-- Jumps
+- Clicks on best attempt
+- How long the best attempt took (in seconds)
 - Attempts
 - Seed
 
@@ -203,11 +204,13 @@ def generatePlatformerHash(bestTime, bestPoints):
 
 For example, `0%` - `13%` - `100%` -> `(13 - 0), (100 - 13)` -> `13,87`
 
-- Unknown (always 1)
-
+- Some sort of cheat detection. Set this value to 1
 - Coins
 - TimelyID
+- Salt (`yPg6pUrtWn0J`)
 - [RS](topics/encryption/id.md?id=rs)
+
+Yes, this is the only CHK where a parameter (RS) comes after the salt.
 
 ## Upload Multiplayer Comment
 

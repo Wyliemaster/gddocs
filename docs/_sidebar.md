@@ -110,8 +110,10 @@
   - [uploadGJMessage20](/endpoints/socials/uploadGJMessage20.md)
 **Rewards**
   - [getGJChallenges](/endpoints/rewards/getGJChallenges.md)
+  - [getGJSecretReward](/endpoints/reward/getGJSecretReward.md)
   - [getGJRewards](/endpoints/rewards/getGJRewards.md)
 **Songs**
+  - [getCustomContentURL](/endpoints/songs/getCustomContentURL.md)
   - [getGJSongInfo](/endpoints/songs/getGJSongInfo.md)
   - [getGJTopArtists](/endpoints/songs/getGJTopArtists.md)
   - [testSong](/endpoints/songs/testSong.md)

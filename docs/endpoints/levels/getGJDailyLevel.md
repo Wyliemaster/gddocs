@@ -12,7 +12,7 @@ Gets which daily level we're on and gets how much time is left.
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 43
 
 **gdw** - 0
 
@@ -20,7 +20,7 @@ Gets which daily level we're on and gets how much time is left.
 
 **gjp** - The user's [GJP](/topics/encryption/gjp.md)
 
-**weekly** - 0 for daily, 1 for weekly. Defaults to 0 if not sent
+**type** - 0 for daily, 1 for weekly, 2 for event. Defaults to 0 if not sent
 
 ## Response
 

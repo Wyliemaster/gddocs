@@ -194,7 +194,11 @@ GLM_20 is a dictionary of all the editor smart templates you have saved
 
 ## GLM_21 
 
-This GLM is unknown, but it presumably had something to do with lists. It was in 2.200 but is not in 2.206
+GLM_21 used to be a dictionary of all your favorited lists in 2.200, but changed to GLM_22 in a later revision.
+
+| Key | description |
+|:----|:------------|
+| kCEK 12 | [level data](resources/client/gamesave/list.md) |
 
 ## GLM_22 
 

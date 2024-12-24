@@ -16,7 +16,7 @@ The Music library format is covered [here](/resources/client/musiclibrary.md).
 
 ## Downloading Songs
 
-You can download a track by sending a GET request to `https://geometrydashfiles.b-cdn.net/music/{id}.mp3`. All Music Library song IDs have an offset of 10,000,000 to not interfere with the Newgrounds songs.
+You can download a track by sending a GET request to `https://geometrydashfiles.b-cdn.net/music/{id}.ogg`. All Music Library song IDs have an offset of 10,000,000 to not interfere with the Newgrounds songs.
 
 ## CDN Tokens
 
