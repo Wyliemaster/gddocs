@@ -47,7 +47,7 @@ This list is then [XOR](/topics/encryption/xor.md)'d and [URL-Safe Base64](/topi
 import requests
 
 data = {
-	  "rewardKey": "wellmet",
+    "rewardKey": "wellmet",
     "secret": "Wmfd2893gb7",
     "chk": f"{''.join(random.choice('1234567890qwertyuiopaqsdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM') for i in range(5))}{base64.b64encode(xor_cipher(str(random.randint(10000, 1000000)), '59182').encode()).decode()}"
 }
