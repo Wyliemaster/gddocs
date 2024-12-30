@@ -53,13 +53,6 @@
 
 ## Other Songs
 
+In 2019, Google removed various Geometry Dash clients from their playstore and RobTop accidentally uploaded a development build of update 2.2 when resolving the issue. In the game files, 2 songs could be found, one of which isn't in the final release, that being Firebird by MDK, which, according to RobTop, was not meant to be a real level.
 
-<link rel="stylesheet" href="stylesheets/imageStyles.css">
-
-<center>
-
-**In 2019, Google removed various Geometry Dash clients from their playstore and RobTop accidentally uploaded a development build of update 2.2 when resolving the issue. In the game files, 2 songs could be found, one of which isn't in the final release, that being Firebird by MDK, which, according to RobTop, was not meant to be a real level.**
-
-<img src="https://raw.githubusercontent.com/Wyliemaster/gddocs/master/assets/screenshots/leaked_songs.png" class="admin">
-
-</center>
+<img src="https://raw.githubusercontent.com/Wyliemaster/gddocs/master/assets/screenshots/leaked_songs.png" class="padded decomp">

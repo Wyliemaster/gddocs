@@ -139,15 +139,12 @@
 ### Admin Secret
 
 > In the client for Geometry Dash 1.9, RobTop mistakenly included the secret for `Admin Endpoints` inside of a function. Admin Endpoints are only accessible for game admins and they make direct changes in-game that affect everyone.
-  
-<link rel="stylesheet" href="stylesheets/imageStyles.css">
 
-<center>
-**<u>Below is a screenshot of the Admin Secret being created from Geometry Dash 1.9. RobTop split it into 6 segments to <i>obfuscate</i> it.</u>**<br>
-<img src="https://raw.githubusercontent.com/Wyliemaster/gddocs/master/assets/screenshots/admin_secret.png" class="admin">
+Below is a screenshot of the Admin Secret being created from Geometry Dash 1.9. RobTop split it into 6 segments to obfuscate it.
 
-Currently, the Admin Secret no longer works as RobTop became aware of it
-</center>
+<img src="https://raw.githubusercontent.com/Wyliemaster/gddocs/master/assets/screenshots/admin_secret.png" class="padded decomp">
+
+Currently, the Admin Secret no longer works as RobTop became aware of it.
 
 <!-- todo: clean-up + explain reasoning clearer-->
 
