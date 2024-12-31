@@ -64,7 +64,7 @@ Uploads a created level to the servers.
 
 **levelInfo** - A random gzip compressed string
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **gdw** - 0
 

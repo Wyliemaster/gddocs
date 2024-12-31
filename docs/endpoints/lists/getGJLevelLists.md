@@ -8,7 +8,7 @@
 | ----------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
 | `secret`          | [Common secret](/reference/secrets.md) `Wmfd2893gb7`                                                          | Yes                                   |
 | `gameVersion`     | [Game Version](#), 22 on 2.2                                                                                  |                                       |
-| `binaryVersion`   | [Binary Version](#), 42 on 2.206                                                                              |                                       |
+| `binaryVersion`   | [Binary Version](#), 44 on 2.20                                                                              |                                       |
 | `type`            | Search type, [see values](#type). Defaults to most liked                                                      |                                       |
 | `str`             | Search query, user ID or level list depending on `type`                                                       | Only on types 5 and 10                |
 | `page`            | Which page to request, defaults to 0                                                                          |                                       |
