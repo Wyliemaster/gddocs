@@ -205,6 +205,7 @@ Unlocked Game Variables (ugv) are used to check if ingame events have been compl
 | ugv_35 | Mechanic Unlocked |
 | ugv_36 | Mechanic Dialogue |
 | ugv_37 | Diamond Shopkeeper Dialogue |
+| ugv_38 | Unknown |
 
 ### Undiscovered/unknown GV's
 

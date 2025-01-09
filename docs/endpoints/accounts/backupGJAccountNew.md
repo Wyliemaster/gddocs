@@ -14,7 +14,7 @@ Saves account data
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **saveData** - The save data for CCGameManager.dat compressed with gzip, then a semicolon `;` and the save data for CCLocalLevels.dat compressed with gzip.
 

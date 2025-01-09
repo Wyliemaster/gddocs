@@ -22,7 +22,7 @@ Deletes a list from the server.
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 ## Response
 

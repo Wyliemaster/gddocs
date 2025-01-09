@@ -12,7 +12,7 @@ Gets which daily level we're on and gets how much time is left.
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **gdw** - 0
 
