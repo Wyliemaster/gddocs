@@ -37,6 +37,7 @@ A list of attributes of the Rewards, separated by colons `:` as follows:
 
 
 Where each itemID is as follows:
+
 | itemID | Type        |
 |--------|-------------|
 | 1      | Fire Shard        |
