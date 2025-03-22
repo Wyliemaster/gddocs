@@ -18,7 +18,7 @@ Removes someone from a user's friend list
 
 **gameVersion** - 21
 
-**binaryVersion** - 35
+**binaryVersion** - 44
 
 **gdw** - 0
 

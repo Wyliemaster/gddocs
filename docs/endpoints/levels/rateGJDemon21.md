@@ -8,7 +8,7 @@ Rates the demon difficulty of a demon level - only works for Geometry Dash moder
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **secret** - Wmfp3897gc3
 
@@ -71,7 +71,7 @@ headers = {
 
 data = {
     "gameVersion": 21,
-    "binaryVersion": 35
+    "binaryVersion": 44
     "accountID": 71,
     "gjp": *********, #the GJP of the moderator
     "secret": "Wmfp3897gc3",

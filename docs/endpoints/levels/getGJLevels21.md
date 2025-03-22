@@ -8,7 +8,7 @@
 | ----------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
 | `secret`          | [Common secret](/reference/secrets.md) `Wmfd2893gb7`                                                          | Yes                                   |
 | `gameVersion`     | [Game Version](#), 22 on 2.2                                                                                  |                                       |
-| `binaryVersion`   | [Binary Version](#), 42 on 2.206                                                                              |                                       |
+| `binaryVersion`   | [Binary Version](#), 42 on 2.20                                                                              |                                       |
 | `type`            | Search type, [see values](#type). Defaults to most liked                                                      |                                       |
 | `str`             | Search query, user ID or level list depending on `type`                                                       | Only on types 5 and 10                |
 | `page`            | Which page to request, defaults to 0                                                                          |                                       |
@@ -64,6 +64,7 @@
 |  19  | Unknown (same as type 10 but this type has pagination and no star rate filter)    |
 |  21  | Daily history                                                                     |
 |  22  | Weekly history                                                                    |
+|  23  | Event history                                                                     |
 |  25  | Level list, uses `str` as the list ID                                             |
 |  26  | Unknown (same as type 19 but each page has up to 100 levels instead of 10 on it)  |
 

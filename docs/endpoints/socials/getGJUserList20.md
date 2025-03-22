@@ -16,7 +16,7 @@ Gets either your friend list or your blocked list
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **gdw** - 0
 

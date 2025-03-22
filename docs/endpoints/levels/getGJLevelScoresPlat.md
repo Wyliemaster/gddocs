@@ -18,7 +18,7 @@ Fetches the leaderboard for a platformer level and submits your level stats to t
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **gdw** - 0
 
