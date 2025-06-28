@@ -50,7 +50,7 @@ Updates a user's data
 
 **seed2** - [See here](/topics/encryption/chk?id=user-profile)
 
-**sinfo** - `{autoClassic},{easyClassic},{normalClassic},{hardClassic},{harderClassic},{insaneClassic},{autoPlatformer},{easyPlatformer},{normalPlatformer},{hardPlatformer},{harderPlatformer},{insanePlatformer}`. Includes official levels
+**sinfo** - List of counts of completed levels of each non-demon difficulty, separately for classic and platformer levels. Includes official levels. Format: `{autoClassic},{easyClassic},{normalClassic},{hardClassic},{harderClassic},{insaneClassic},{autoPlatformer},{easyPlatformer},{normalPlatformer},{hardPlatformer},{harderPlatformer},{insanePlatformer}`
 
 **sinfod** - Amount of completed dailies
 
