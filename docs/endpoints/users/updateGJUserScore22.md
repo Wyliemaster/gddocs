@@ -80,11 +80,11 @@ Updates a user's data
 
 **dinfo** - List of all completed demons (level IDs separated by `,`). Does not include official, weekly, gauntlet and event levels. Not sent if empty
 
-**dinfow** - Amount of completed weeklies. Not sent if dinfo is empty
+**dinfow** - Amount of completed weeklies. Sent only together with dinfo
 
-**dinfog** - Amount of completed gauntlet demons. Not sent if dinfo is empty
+**dinfog** - Amount of completed gauntlet demons. Sent only together with dinfo
 
-**dinfoe** - Amount of completed event demons. Not sent if dinfo is empty
+**dinfoe** - Amount of completed event demons. Sent only together with dinfo
 
 **seed** - A random set of 10 numbers and letters in A-Za-z0-9
 
