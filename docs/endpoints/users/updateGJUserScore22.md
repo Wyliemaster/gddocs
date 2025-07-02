@@ -78,7 +78,7 @@ Updates a user's data
 
 **special** - Glow (2 if enabled)
 
-**dinfo** - List of all completed demons (level IDs separated by `,`). Does not include official levels. Not sent if empty
+**dinfo** - List of all completed demons (level IDs separated by `,`). Does not include official, weekly, gauntlet and event levels. Not sent if empty
 
 **dinfow** - Amount of completed weeklies. Not sent if dinfo is empty
 
