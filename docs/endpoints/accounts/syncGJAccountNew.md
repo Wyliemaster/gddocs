@@ -12,11 +12,11 @@ Loads account data
 
 **gjp2** - The password of the account to be added with [GJP2](/topics/gjp.md) encryption
 
+**gameVersion** - 22
+
 **secret** - Wmfv3899gc9
 
 ### Optional Parameters
-
-**gameVersion** - 22
 
 **binaryVersion** - 42
 
@@ -48,6 +48,7 @@ import requests
 data = {
     "accountID": 23590959, # This would be APIAccount's account ID
     "gjp2": "********", # This would be APIAccount's password with GJP2 encryption
+    "gameVersion": "22",
     "secret": "Wmfv3899gc9"
 }
 
