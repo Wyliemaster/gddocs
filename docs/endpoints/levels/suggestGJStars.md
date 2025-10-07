@@ -38,7 +38,7 @@ import requests
 
 data = {
         "gameVersion": 21,
-        "binaryVersion":35
+        "binaryVersion":44
         "accountID": 71, # a moderators accountID
         "gjp": "********", # This would be the mods password encoded with GJP encryption
         "levelID": 128,

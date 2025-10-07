@@ -7,7 +7,7 @@
 | Parameter       | Explanation                                                | Optional |
 | :-------------- | :--------------------------------------------------------- | -------- |
 | `gameVersion`   | The Game Version the player is playing on. 22 for 2.2      | `True`   |
-| `binaryVersion` | The current build the player is playing on. 42 for 2.206   | `True`   |
+| `binaryVersion` | The current build the player is playing on. 44 for 2.207   | `True`   |
 | `gdw`           | If the player is using Geometry Dash World                 | `True`   |
 | `accountID`     | The player's account ID                                    | `False`  |
 | `gjp2`          | The player's [GJP2](/topics/encryption/gjp.md)             | `False`  |

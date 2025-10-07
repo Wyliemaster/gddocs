@@ -16,7 +16,7 @@ Likes a level, comment, etc.
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 44
 
 **gdw** - 0
 

@@ -141,6 +141,9 @@ These keys were used in old versions of the game but are now obsolete.
 | [GS_27](/resources/client/gamesave/GS_Value#GS_27)| All the list rewards |
 | [GS_28](/resources/client/gamesave/GS_Value#GS_28)| Your enabled items (animations) |
 | [GS_29](/resources/client/gamesave/GS_Value#GS_29)| Unknown (boolean) |
+| [GS_29](/resources/client/gamesave/GS_Value#GS_29)| Unknown (boolean) |
+| [GS_30](/resources/client/gamesave/GS_Value#GS_30)| Wraith rewards |
+| [GS_31](/resources/client/gamesave/GS_Value#GS_31)| Event level rewards |
 
 ### GJA
 
