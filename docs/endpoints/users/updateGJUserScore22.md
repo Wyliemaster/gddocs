@@ -14,7 +14,7 @@ Updates a user's data
 
 **moons** - The amount of moons the user has
 
-**demons** - The amount of demons the user has
+**demons** - The amount of demons the user has, including official levels
 
 **diamonds** - The amount of diamonds the user has
 
@@ -50,17 +50,13 @@ Updates a user's data
 
 **seed2** - [See here](/topics/encryption/chk?id=user-profile)
 
-**dinfo** - List of all completed demons (level IDs separated by `,`)
-
-**dinfow** - Amount of completed weeklies
-
-**dinfog** - Amount of completed gauntlet demons
-
-**sinfo** - `{autoClassic},{easyClassic},{normalClassic},{hardClassic},{harderClassic},{insaneClassic},{autoPlatformer},{easyPlatformer},{normalPlatformer},{hardPlatformer},{harderPlatformer},{insanePlatformer}`
+**sinfo** - List of counts of completed levels of each non-demon difficulty, separately for classic and platformer levels. Includes official levels. Format: `{autoClassic},{easyClassic},{normalClassic},{hardClassic},{harderClassic},{insaneClassic},{autoPlatformer},{easyPlatformer},{normalPlatformer},{hardPlatformer},{harderPlatformer},{insanePlatformer}`
 
 **sinfod** - Amount of completed dailies
 
 **sinfog** - Amount of completed gauntlet non-demon levels
+
+**sinfoe** - Amount of completed event non-demon levels
 
 **secret** - Wmfd2893gb7
 
@@ -81,6 +77,14 @@ Updates a user's data
 **color3** - Glow color of the player. Defaults to secondary color when left out
 
 **special** - Glow (2 if enabled)
+
+**dinfo** - List of all completed demons (level IDs separated by `,`). Does not include official, weekly, gauntlet and event levels. Not sent if empty
+
+**dinfow** - Amount of completed weeklies. Sent only together with dinfo
+
+**dinfog** - Amount of completed gauntlet demons. Sent only together with dinfo
+
+**dinfoe** - Amount of completed event demons. Sent only together with dinfo
 
 **seed** - A random set of 10 numbers and letters in A-Za-z0-9
 
@@ -127,9 +131,11 @@ data = {
     "dinfo": "13519,10109",
     "dinfow": 0,
     "dinfog": 0,
+    "dinfoe": 0,
     "sinfo": "6,9,6,9,6,9,6,9,6,9,6,9",
     "sinfod": 0,
     "sinfog": 0,
+    "sinfoe": 0,
     "secret": "Wmfd2893gb7",
     "seed": ''.join(random.sample("1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM", 10))
 }
