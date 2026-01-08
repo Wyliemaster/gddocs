@@ -21,3 +21,25 @@ details[open] {
 details[open] > *:not(summary) {
     margin: 0.5em;
 }
+
+img {
+    border: 2px solid #344640;
+    border-radius: 7px;
+
+    /* center in parent */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    &.padded {
+        padding: 10px;
+
+        &.alertlayer {
+            background-color: #001033; 
+        }
+
+        &.decomp {
+            background-color: #2D2D2D;
+        }
+    }
+}
