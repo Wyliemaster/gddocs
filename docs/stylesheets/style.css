@@ -21,3 +21,8 @@ details[open] {
 details[open] > *:not(summary) {
     margin: 0.5em;
 }
+
+/* doubled id to increase specificity to 0-4-1 over the 0-3-1 docsify rule */
+.markdown-section.markdown-section code:not([class*=lang-]):not([class*=language-]) {
+    white-space: break-spaces;
+}
